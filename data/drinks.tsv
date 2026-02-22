@@ -1,0 +1,892 @@
+Type	Name	DRINK_ID	Premium	Description	Bar	Unique
+Tequila & Mezcal	1800 Reposado	6QpEtuF9Xq	FALSE	—	The Overlook Bar	TRUE
+Cocktail	8 Ball	ViJuArDeuC	FALSE	Gin, coconut rum, watermelon syrup and grapefruit juice	Dueling Pianos	FALSE
+Cocktail	8 Ball	ViJuArDeuC	FALSE	Gin, coconut rum, watermelon syrup and grapefruit juice	Music Hall	FALSE
+Cocktail	8 Ball	ViJuArDeuC	FALSE	Gin, coconut rum, watermelon syrup and grapefruit juice	Spotlight Karaoke	FALSE
+Vodka	Absolut	A6Zg23n7Jn	FALSE	—	Music Hall	FALSE
+Vodka	Absolut	A6Zg23n7Jn	FALSE	—	The Overlook Bar	FALSE
+Vodka	Absolut Citron	y4LDnSr9Oz	FALSE	—	The Overlook Bar	TRUE
+Vodka	Absolut Vanilla	kHAA2OTP42	FALSE	—	The Overlook Bar	TRUE
+Cocktail	Amalfi Coast	3EeSH4EBCW	FALSE	Belvedere vodka, limoncello, elderflower tonic and sparkling grapefruit	Point and Feather Pub	TRUE
+Beer	Amstel Light	ZSJAPiDTc1	FALSE	Dutch pilsner 4.1% ABV	Aquadome Market Bar	FALSE
+Beer	Amstel Light	ZSJAPiDTc1	FALSE	Dutch pilsner 4.1% ABV	Boleros	FALSE
+Beer	Amstel Light	ZSJAPiDTc1	FALSE	Dutch pilsner 4.1% ABV	Dueling Pianos	FALSE
+Beer	Amstel Light	ZSJAPiDTc1	FALSE	Dutch pilsner 4.1% ABV	Music Hall	FALSE
+Beer	Amstel Light	ZSJAPiDTc1	FALSE	Dutch pilsner 4.1% ABV	Playmakers Sports Bar	FALSE
+Beer	Amstel Light	ZSJAPiDTc1	FALSE	Dutch pilsner 4.1% ABV	Schooner Bar	FALSE
+Beer	Amstel Light	ZSJAPiDTc1	FALSE	Dutch pilsner 4.1% ABV	The Overlook Bar	FALSE
+Beer	Amstel Light	ZSJAPiDTc1	FALSE	Dutch pilsner 4.1% ABV	Trellis Bar	FALSE
+Cider	Angry Orchard Hard Cider	bR6ksq2dc3	FALSE	Cider 5% ABV	Playmakers Sports Bar	FALSE
+Cider	Angry Orchard Hard Cider	bR6ksq2dc3	FALSE	Cider 5% ABV	Point and Feather Pub	FALSE
+Cider	Angry Orchard Hard Cider	bR6ksq2dc3	FALSE	Cider 5% ABV	Aquadome Market Bar	FALSE
+Cider	Angry Orchard Hard Cider	bR6ksq2dc3	FALSE	Cider 5% ABV	The Overlook Bar	FALSE
+Cider	Angry Orchard Hard Cider	bR6ksq2dc3	FALSE	Cider 5% ABV	Trellis Bar	FALSE
+Apéritif	Aperol	yaRKUMOxUp	FALSE	—	Aquadome Market Bar	FALSE
+Apéritif	Aperol	yaRKUMOxUp	FALSE	—	The Overlook Bar	FALSE
+Apéritif	Aperol	yaRKUMOxUp	FALSE	—	Trellis Bar	FALSE
+Gin	Aviation	lPbBIAJya3	FALSE	—	Music Hall	FALSE
+Gin	Aviation	lPbBIAJya3	FALSE	—	Point and Feather Pub	FALSE
+Tequila & Mezcal	Avión Silver	AIkvwIAcDn	FALSE	—	The Overlook Bar	TRUE
+Cocktail	B-Flat Negroni	mtLfSvjE9T	FALSE	Hendrick’s gin, Suze liqueur and dry vermouth	Lou’s Jazz n Blues	TRUE
+Apéritif	B&B	iExtAAMEiC	FALSE	—	Aquadome Market Bar	FALSE
+Apéritif	B&B	iExtAAMEiC	FALSE	—	The Overlook Bar	FALSE
+Apéritif	B&B	iExtAAMEiC	FALSE	—	Trellis Bar	FALSE
+Rum	Bacardi Superior	uApKGogRUw	FALSE	—	The Overlook Bar	FALSE
+Rum	Bacardi Reserva Ocho	ZAmwoRPkPh	FALSE	—	Music Hall	FALSE
+Rum	Bacardi Reserva Ocho	ZAmwoRPkPh	FALSE	—	The Overlook Bar	FALSE
+Rum	Bacardi Superior	uApKGogRUw	FALSE	—	Music Hall	FALSE
+Cocktail	Bae at the Beach	E65blDMKA9	FALSE	Ketel One Botanical Grapefruit & Rose vodka, Munyon’s Paw-Paw Premium Florida liqueur, lemon and grapefruit juices, simple syrup and Q sparkling grapefruit	Swim n Tonic	FALSE
+Cocktail	Bae at The Beach	svtM7CjpY9	FALSE	Ketel One Botanical Grapefruit & Rose vodka, Munyon’s Paw-Paw Premium Florida liqueur, lemon and grapefruit juices, simple syrup and Q sparkling grapefruit	The Hideaway Bar	FALSE
+Liqueurs	Baileys Irish Cream	z5ZAyPoQEO	FALSE	—	Aquadome Market Bar	FALSE
+Liqueurs	Baileys Irish Cream	z5ZAyPoQEO	FALSE	—	Music Hall	FALSE
+Liqueurs	Baileys Irish Cream	z5ZAyPoQEO	FALSE	—	The Overlook Bar	FALSE
+Liqueurs	Baileys Irish Cream	z5ZAyPoQEO	FALSE	—	Trellis Bar	FALSE
+Zero Proof	Bajan Green Tea	NKs0BGpcU2	FALSE	Guava and passion fruit syrup, green tea, coconut milk and club soda	Rye and Bean	TRUE
+Red Wine	Barkan Cabernet Sauvignon	9eZAA7wn7v	FALSE	—	Music Hall	TRUE
+White Wine	Barkan Chardonnay	ZOXSzJW0Nt	FALSE	—	Music Hall	TRUE
+Red Wine	Barkan Merlot	qh0LDyqWBU	FALSE	—	Music Hall	TRUE
+White Wine	Barkan Sauvignon Blanc	FLBAbwfKth	FALSE	—	Music Hall	TRUE
+Sparkling Wine	Bartenura Prosecco	4h7iXY1Y0Z	FALSE	—	Music Hall	TRUE
+Gin	Beefeater London Dry	pBR9uhQXPR	FALSE	—	Music Hall	FALSE
+Gin	Beefeater London Dry	pBR9uhQXPR	FALSE	—	Point and Feather Pub	FALSE
+Gin	Beefeater Pink	NZIFszM5df	FALSE	—	Point and Feather Pub	TRUE
+Cocktail	Bellini	AX90e0ECA7	FALSE	Prosecco and peach purée	Bubbles	TRUE
+Vodka	Belvedere	RAcLEvn7H3	FALSE	—	Music Hall	FALSE
+Vodka	Belvedere	RAcLEvn7H3	FALSE	—	The Overlook Bar	FALSE
+Vodka	Belvedere Pink Grapefruit	mkP20hAAyC	FALSE	—	The Overlook Bar	TRUE
+White Wine	Beringer White Zinfandel	3EXwzGqWrG	FALSE	California, USA	Schooner Bar	FALSE
+White Wine	Beringer White Zinfandel	3EXwzGqWrG	FALSE	California, USA	The Overlook Bar	FALSE
+White Wine	Beringer White Zinfandel	3EXwzGqWrG	FALSE	California, USA	Trellis Bar	FALSE
+White Wine	Beringer White Zinfandel	3EXwzGqWrG	FALSE	California, USA	1400 Lobby Bar	FALSE
+White Wine	Beringer White Zinfandel	3EXwzGqWrG	FALSE	California, USA	Aquadome Market Bar	FALSE
+White Wine	Beringer White Zinfandel	3EXwzGqWrG	FALSE	California, USA	Dueling Pianos	FALSE
+White Wine	Beringer White Zinfandel	3EXwzGqWrG	FALSE	California, USA	Music Hall	FALSE
+Zero Proof	Berry Press	XDLK6Ah1xO	FALSE	Strawberries, lavender syrup, fresh lemon juice and club soda	Dueling Pianos	FALSE
+Zero Proof	Berry Press	XDLK6Ah1xO	FALSE	Strawberries, lavender syrup, fresh lemon juice and club soda	Point and Feather Pub	FALSE
+Zero Proof	Berry Press	XDLK6Ah1xO	FALSE	Strawberries, lavender syrup, fresh lemon juice and club soda	Spotlight Karaoke	FALSE
+Cocktail	Big Bobo	rTFBz0AOQd	FALSE	Hard Truth toasted coconut rum, cold brewed Earl Grey tea, whole milk, simple syrup and boba pearls	Rye and Bean	TRUE
+Rosé Wine	Binyamina Reserve Rosé	e3ddWvNKyV	FALSE	—	Music Hall	FALSE
+Rosé Wine	Binyamina Reserve Rosé	e3ddWvNKyV	FALSE	—	Music Hall	FALSE
+Cocktail	Black & Gold	1TnoXmzDGo	FALSE	Buffalo Trace bourbon, peach schnapps, sour mix, cranberry juice and ginger ale	Playmakers Sports Bar	TRUE
+Cocktail	Bloom & Botanical	p4XDe7ei6n	FALSE	Aviation gin, St-Germain Elderflower liqueur, lemon juice, fresh blueberries, simple syrup and Living Coral Sparkling Rosé with a mint sugar rim	The Hideaway Bar	TRUE
+Beer	Blue Moon Belgian White	jQ4K89j4Vx	FALSE	Belgian-style wheat ale 5.4% ABV	Playmakers Sports Bar	FALSE
+Beer	Blue Moon Belgian White	jQ4K89j4Vx	FALSE	Belgian-style wheat ale 5.4% ABV	Aquadome Market Bar	FALSE
+Beer	Blue Moon Belgian White	jQ4K89j4Vx	FALSE	Belgian-style wheat ale 5.4% ABV	Boleros	FALSE
+Beer	Blue Moon Belgian White	jQ4K89j4Vx	FALSE	Belgian-style wheat ale 5.4% ABV	Music Hall	FALSE
+Beer	Blue Moon Belgian White	jQ4K89j4Vx	FALSE	Belgian-style wheat ale 5.4% ABV	Playmakers Sports Bar	FALSE
+Beer	Blue Moon Belgian White	jQ4K89j4Vx	FALSE	Belgian-style wheat ale 5.4% ABV	Point and Feather Pub	FALSE
+Beer	Blue Moon Belgian White	jQ4K89j4Vx	FALSE	Belgian-style wheat ale 5.4% ABV	Schooner Bar	FALSE
+Beer	Blue Moon Belgian White	jQ4K89j4Vx	FALSE	Belgian-style wheat ale 5.4% ABV	The Lime and Coconut Bars	FALSE
+Beer	Blue Moon Belgian White	jQ4K89j4Vx	FALSE	Belgian-style wheat ale 5.4% ABV	The Overlook Bar	FALSE
+Beer	Blue Moon Belgian White	jQ4K89j4Vx	FALSE	Belgian-style wheat ale 5.4% ABV	Trellis Bar	FALSE
+Zero Proof	Blue Raspberry Ocean	DBThQ4BdlH	FALSE	Blue raspberry syrup, Swedish Fish and house-made lemonade	The Lemon Post Bar	TRUE
+Zero Proof	Blueberry Nojito	mpvjWjmUAA	FALSE	Blueberry purée, lime juice, simple syrup and mint	1400 Lobby Bar	FALSE
+Zero Proof	Blueberry Nojito	mpvjWjmUAA	FALSE	Blueberry purée, lime juice, simple syrup and mint	Aquadome Market Bar	FALSE
+Zero Proof	Blueberry Nojito	mpvjWjmUAA	FALSE	Blueberry purée, lime juice, simple syrup and mint	Boleros	FALSE
+Zero Proof	Blueberry Nojito	mpvjWjmUAA	FALSE	Blueberry purée, lime juice, simple syrup and mint	Playmakers Sports Bar	FALSE
+Zero Proof	Blueberry Nojito	mpvjWjmUAA	FALSE	Blueberry purée, lime juice, simple syrup and mint	The Overlook Bar	FALSE
+Zero Proof	Blueberry Nojito	mpvjWjmUAA	FALSE	Blueberry purée, lime juice, simple syrup and mint	Trellis Bar	FALSE
+Gin	Bombay Sapphire	ftiNCnmDf3	FALSE	—	Music Hall	FALSE
+Gin	Bombay Sapphire	ftiNCnmDf3	FALSE	—	Point and Feather Pub	FALSE
+Cocktail	Boston Iced Tea Party	1UnGOuFevM	FALSE	Tanqueray gin, Bacardi Superior rum, Absolut vodka, triple sec and sweet & sour topped with Coca-Cola	Point and Feather Pub	TRUE
+Zero Proof	Bubbly Wubbly Lemonade	EbpyttuRiR	FALSE	Banana purée, peach syrup, club soda and house-made lemonade	The Lemon Post Bar	TRUE
+Beer	Bud Light	FjLsSR7fsG	FALSE	American pale lager 4.2% ABV	Aquadome Market Bar	FALSE
+Beer	Bud Light	FjLsSR7fsG	FALSE	American pale lager 4.2% ABV	Boleros	FALSE
+Beer	Bud Light	FjLsSR7fsG	FALSE	American pale lager 4.2% ABV	Dueling Pianos	FALSE
+Beer	Bud Light	FjLsSR7fsG	FALSE	American pale lager 4.2% ABV	Playmakers Sports Bar	FALSE
+Beer	Bud Light	FjLsSR7fsG	FALSE	American pale lager 4.2% ABV	Point and Feather Pub	FALSE
+Beer	Bud Light	FjLsSR7fsG	FALSE	American pale lager 4.2% ABV	Schooner Bar	FALSE
+Beer	Bud Light	FjLsSR7fsG	FALSE	American pale lager 4.2% ABV	The Overlook Bar	FALSE
+Beer	Bud Light	FjLsSR7fsG	FALSE	American pale lager 4.2% ABV	Trellis Bar	FALSE
+Beer	Budweiser	lt25CI0mk2	FALSE	American pale lager 5% ABV	Aquadome Market Bar	FALSE
+Beer	Budweiser	lt25CI0mk2	FALSE	American pale lager 5% ABV	Boleros	FALSE
+Beer	Budweiser	lt25CI0mk2	FALSE	American pale lager 5% ABV	Dueling Pianos	FALSE
+Beer	Budweiser	lt25CI0mk2	FALSE	American pale lager 5% ABV	Music Hall	FALSE
+Beer	Budweiser	lt25CI0mk2	FALSE	American pale lager 5% ABV	Playmakers Sports Bar	FALSE
+Beer	Budweiser	lt25CI0mk2	FALSE	American pale lager 5% ABV	Schooner Bar	FALSE
+Beer	Budweiser	lt25CI0mk2	FALSE	American pale lager 5% ABV	The Overlook Bar	FALSE
+Beer	Budweiser	lt25CI0mk2	FALSE	American pale lager 5% ABV	Trellis Bar	FALSE
+Cocktail	Buffalo Manhattan	Tw0tSxq2yQ	FALSE	Buffalo Trace bourbon, sweet vermouth and Angostura bitters	Point and Feather Pub	TRUE
+Whiskey & Bourbon	Buffalo Trace	Xr8yWl3jFB	FALSE	—	Aquadome Market Bar	FALSE
+Whiskey & Bourbon	Buffalo Trace	Xr8yWl3jFB	FALSE	—	Music Hall	FALSE
+Whiskey & Bourbon	Buffalo Trace	Xr8yWl3jFB	FALSE	—	The Overlook Bar	FALSE
+Whiskey & Bourbon	Buffalo Trace	Xr8yWl3jFB	FALSE	—	Trellis Bar	FALSE
+Whiskey & Bourbon	Bulleit Rye	9LHdrkfsDG	FALSE	—	Aquadome Market Bar	FALSE
+Whiskey & Bourbon	Bulleit Rye	9LHdrkfsDG	FALSE	—	The Overlook Bar	FALSE
+Whiskey & Bourbon	Bulleit Rye	9LHdrkfsDG	FALSE	—	Trellis Bar	FALSE
+Whiskey & Bourbon	Bulleit Rye	9LHdrkfsDG	FALSE	—	Aquadome Market Bar	FALSE
+Whiskey & Bourbon	Bulleit Rye	9LHdrkfsDG	FALSE	—	The Overlook Bar	FALSE
+Whiskey & Bourbon	Bulleit Rye	9LHdrkfsDG	FALSE	—	Trellis Bar	FALSE
+Cocktail	Cable Car	mXi6zUqKgh	FALSE	Captain Morgan’s Original Spiced rum, orange curaçao, lemon sour and aquafaba with a cinnamon sugar rim	1400 Lobby Bar	TRUE
+Cocktail	Caipirinha	gO4QKQqZsW	FALSE	Leblon Cachaça rum, freshly squeezed lime juice, fresh lime and simple syrup	Boleros	TRUE
+Apéritif	Campari	TM8viVJcAQ	FALSE	—	Aquadome Market Bar	FALSE
+Apéritif	Campari	TM8viVJcAQ	FALSE	—	The Overlook Bar	FALSE
+Apéritif	Campari	TM8viVJcAQ	FALSE	—	Trellis Bar	FALSE
+Whiskey & Bourbon	Canadian Club	khmsTrjMad	FALSE	—	Aquadome Market Bar	FALSE
+Whiskey & Bourbon	Canadian Club	khmsTrjMad	FALSE	—	Music Hall	FALSE
+Whiskey & Bourbon	Canadian Club	khmsTrjMad	FALSE	—	The Overlook Bar	FALSE
+Whiskey & Bourbon	Canadian Club	khmsTrjMad	FALSE	—	Trellis Bar	FALSE
+Soft Mixer	Cantaloupe Agua Fresca	HnAImor08N	FALSE	—	Cantina Fresca	TRUE
+Rum	Captain Morgan Original Spiced	XZutRHK75d	FALSE	—	Music Hall	FALSE
+Rum	Captain Morgan Original Spiced	XZutRHK75d	FALSE	—	The Overlook Bar	FALSE
+Cocktail	Carajillo	8KTaCdaIAA	FALSE	Cold brew coffee and Licor 43 liqueur	Rye and Bean	TRUE
+Beer	Carib	bQS6av76aX	FALSE	Trinidad & Tobago, pale lager	Point and Feather Pub	TRUE
+Cocktail	Caribbean Mule	RqffeBmrFU	FALSE	Absolut vodka, coconut syrup, lime juice and Gosling’s ginger beer	Aquadome Market Bar	FALSE
+Cocktail	Caribbean Mule	RqffeBmrFU	FALSE	Absolut vodka, coconut syrup, lime juice and Gosling’s ginger beer	The Lime and Coconut Bars	FALSE
+Cocktail	Caribbean Mule	RqffeBmrFU	FALSE	Absolut vodka, coconut syrup, lime juice and Gosling’s ginger beer	The Overlook Bar	FALSE
+Cocktail	Caribbean Mule	RqffeBmrFU	FALSE	Absolut vodka, coconut syrup, lime juice and Gosling’s ginger beer	Trellis Bar	FALSE
+Cocktail	Caribou	hxAaZimxBq	FALSE	Myers’s Original Dark rum, Malibu Coconut rum and pineapple juice	Dueling Pianos	FALSE
+Cocktail	Caribou	hxAaZimxBq	FALSE	Myers’s Original Dark rum, Malibu Coconut rum and pineapple juice	Music Hall	FALSE
+Cocktail	Caribou	hxAaZimxBq	FALSE	Myers’s Original Dark rum, Malibu Coconut rum and pineapple juice	Spotlight Karaoke	FALSE
+Cocktail	Castaway Spirits	DHWUAnNoOI	FALSE	Aperol, coconut milk, pineapple juice, mango and vanilla syrup and prosecco	The Hideaway Bar	TRUE
+Red Wine	Castle Rock Cabernet Sauvignon	0I9r62jD7m	FALSE	Columbia Valley, Washington, USA	Schooner Bar	FALSE
+Red Wine	Castle Rock Cabernet Sauvignon	0I9r62jD7m	FALSE	Columbia Valley, Washington, USA	The Overlook Bar	FALSE
+Red Wine	Castle Rock Cabernet Sauvignon	0I9r62jD7m	FALSE	Columbia Valley, Washington, USA	Trellis Bar	FALSE
+Red Wine	Castle Rock Pinot Noir “California Cuvée”	1fOPQxzbiX	FALSE	California, USA	Schooner Bar	FALSE
+Red Wine	Castle Rock Pinot Noir “California Cuvée”	1fOPQxzbiX	FALSE	California, USA	The Overlook Bar	FALSE
+Red Wine	Castle Rock Pinot Noir “California Cuvée”	1fOPQxzbiX	FALSE	California, USA	Trellis Bar	FALSE
+Red Wine	Castle Rock Cabernet Sauvignon	0I9r62jD7m	FALSE	Columbia Valley, Washington, USA	Aquadome Market Bar	FALSE
+Red Wine	Castle Rock Cabernet Sauvignon	0I9r62jD7m	FALSE	Columbia Valley, Washington, USA	Dueling Pianos	FALSE
+Red Wine	Castle Rock Cabernet Sauvignon	0I9r62jD7m	FALSE	Columbia Valley, Washington, USA	Music Hall	FALSE
+Red Wine	Castle Rock Pinot Noir “California Cuvée”	1fOPQxzbiX	FALSE	California, USA	Dueling Pianos	FALSE
+Red Wine	Castle Rock Pinot Noir “California Cuvée”	1fOPQxzbiX	FALSE	California, USA	Music Hall	FALSE
+Red Wine	Castle Rock Pinot Noir “California Cuvée”	1fOPQxzbiX	FALSE	California, USA	Aquadome Market Bar	FALSE
+Cocktail	Chai Old Fashioned	kNRxHWpSAH	FALSE	Woodford Reserve bourbon, chai tea and cardamom bitters	Rye and Bean	TRUE
+Liqueurs	Chambord Black Raspberry	Y8dpzpqzZC	FALSE	—	Aquadome Market Bar	FALSE
+Liqueurs	Chambord Black Raspberry	Y8dpzpqzZC	FALSE	—	Music Hall	FALSE
+Liqueurs	Chambord Black Raspberry	Y8dpzpqzZC	FALSE	—	The Overlook Bar	FALSE
+Liqueurs	Chambord Black Raspberry	Y8dpzpqzZC	FALSE	—	Trellis Bar	FALSE
+Sparkling Wine	Chandon Brut “Classic”	PAal0exfgj	FALSE	California, USA	Bubbles	FALSE
+Sparkling Wine	Chandon Brut “Classic”	PAal0exfgj	FALSE	California, USA	1400 Lobby Bar	FALSE
+Sparkling Wine	Chandon Brut “Classic”	PAal0exfgj	FALSE	California, USA	Aquadome Market Bar	FALSE
+Sparkling Wine	Chandon Brut “Classic”	PAal0exfgj	FALSE	California, USA	Dueling Pianos	FALSE
+Sparkling Wine	Chandon Brut “Classic”	PAal0exfgj	FALSE	California, USA	Music Hall	FALSE
+Sparkling Wine	Chandon Brut “Classic”	PAal0exfgj	FALSE	California, USA	Schooner Bar	FALSE
+Sparkling Wine	Chandon Brut “Classic”	PAal0exfgj	FALSE	California, USA	The Overlook Bar	FALSE
+Sparkling Wine	Chandon Brut “Classic”	PAal0exfgj	FALSE	California, USA	Trellis Bar	FALSE
+White Wine	Kendall-Jackson Chardonnay	47X3VSjoiH	FALSE	Kendall-Jackson, Vintner’s Reserve, California, USA	Playmakers Sports Bar	TRUE
+Red Wine	Château d’Aussières Cabernet Sauvignon “Aussières”	RafmFedDGu	FALSE	Languedoc, France	The Overlook Bar	FALSE
+Red Wine	Château d’Aussières Cabernet Sauvignon “Aussières”	RafmFedDGu	FALSE	Languedoc, France	Trellis Bar	FALSE
+Red Wine	Château d’Aussières Cabernet Sauvignon “Aussières”	RafmFedDGu	FALSE	Languedoc, France	Schooner Bar	FALSE
+White Wine	Château d’Aussières Chardonnay “Aussières”	OuAt9dQwRy	FALSE	Languedoc, France	The Overlook Bar	FALSE
+White Wine	Château d’Aussières Chardonnay “Aussières”	OuAt9dQwRy	FALSE	Languedoc, France	Trellis Bar	FALSE
+White Wine	Château d’Aussières Chardonnay “Aussières”	OuAt9dQwRy	FALSE	Languedoc, France	Schooner Bar	FALSE
+Red Wine	Château d’Aussières Cabernet Sauvignon “Aussières”	RafmFedDGu	FALSE	Languedoc, France	Dueling Pianos	FALSE
+Red Wine	Château d’Aussières Cabernet Sauvignon “Aussières”	RafmFedDGu	FALSE	Languedoc, France	Music Hall	FALSE
+Red Wine	Château d’Aussières Cabernet Sauvignon “Aussières”	RafmFedDGu	FALSE	Languedoc, France	1400 Lobby Bar	FALSE
+Red Wine	Château d’Aussières Cabernet Sauvignon “Aussières”	RafmFedDGu	FALSE	Languedoc, France	Aquadome Market Bar	FALSE
+White Wine	Château d’Aussières Chardonnay “Aussières”	OuAt9dQwRy	FALSE	Languedoc, France	Dueling Pianos	FALSE
+White Wine	Château d’Aussières Chardonnay “Aussières”	OuAt9dQwRy	FALSE	Languedoc, France	Music Hall	FALSE
+White Wine	Château d’Aussières Chardonnay “Aussières”	OuAt9dQwRy	FALSE	Languedoc, France	1400 Lobby Bar	FALSE
+White Wine	Château d’Aussières Chardonnay “Aussières”	OuAt9dQwRy	FALSE	Languedoc, France	Aquadome Market Bar	FALSE
+Rosé Wine	Château d’Esclans Rosé “Whispering Angel”	xPAA0RtfKJ	FALSE	Provence, France	Schooner Bar	FALSE
+Rosé Wine	Château d’Esclans Rosé “Whispering Angel”	xPAA0RtfKJ	FALSE	Provence, France	The Overlook Bar	FALSE
+Rosé Wine	Château d’Esclans Rosé “Whispering Angel”	xPAA0RtfKJ	FALSE	Provence, France	Trellis Bar	FALSE
+Rosé Wine	Château d’Esclans Rosé “Whispering Angel”	xPAA0RtfKJ	FALSE	Provence, France	Dueling Pianos	FALSE
+Rosé Wine	Château d’Esclans Rosé “Whispering Angel”	xPAA0RtfKJ	FALSE	Provence, France	Music Hall	FALSE
+Rosé Wine	Château d’Esclans Rosé “Whispering Angel”	xPAA0RtfKJ	FALSE	Provence, France	1400 Lobby Bar	FALSE
+Rosé Wine	Château d’Esclans Rosé “Whispering Angel”	xPAA0RtfKJ	FALSE	Provence, France	1400 Lobby Bar	FALSE
+Rosé Wine	Château d’Esclans Rosé “Whispering Angel”	xPAA0RtfKJ	FALSE	Provence, France	Aquadome Market Bar	FALSE
+Zero Proof	Cherry Lifesaver	UAO562rvmV	FALSE	Cherry syrup, cherries and house-made lemonade	The Lemon Post Bar	TRUE
+Whiskey & Bourbon	Chivas Regal 12	x3AN9YD2Fn	FALSE	—	Music Hall	FALSE
+Whiskey & Bourbon	Chivas Regal 12	x3AN9YD2Fn	FALSE	—	Aquadome Market Bar	FALSE
+Whiskey & Bourbon	Chivas Regal 12	x3AN9YD2Fn	FALSE	—	The Overlook Bar	FALSE
+Whiskey & Bourbon	Chivas Regal 12	x3AN9YD2Fn	FALSE	—	Trellis Bar	FALSE
+Zero Proof	Citrus Tonic	uVmDiTUtKh	FALSE	Lemon juice, Q elderflower tonic and sparkling grapefruit	Playmakers Sports Bar	FALSE
+Zero Proof	Citrus Tonic	uVmDiTUtKh	FALSE	Lemon juice, Q elderflower tonic and sparkling grapefruit	Point and Feather Pub	FALSE
+Zero Proof	Citrus Tonic	uVmDiTUtKh	FALSE	Lemon juice, Q elderflower tonic and sparkling grapefruit	Swim n Tonic	FALSE
+Cocktail	Classic Margarita	hS1LMrXj2O	FALSE	Frozen or on the rocks; strawberry, mango, passion fruit, traditional lime or sangria swirl	Cantina Fresca	TRUE
+Cocktail	Classic Old Fashioned	vdwCtKiwKx	FALSE	Buffalo Trace bourbon, sugar syrup, Angostura and orange bitters, garnished with orange peel	Point and Feather Pub	TRUE
+Soft Mixer	Coca-Cola	IIrRu86f0m	FALSE	—	Aquadome Market Bar	FALSE
+Soft Mixer	Coca-Cola	IIrRu86f0m	FALSE	—	The Overlook Bar	FALSE
+Soft Mixer	Coca-Cola	IIrRu86f0m	FALSE	—	Trellis Bar	FALSE
+Soft Mixer	Coca-Cola Zero	MCGZo7aOD5	FALSE	—	Aquadome Market Bar	FALSE
+Soft Mixer	Coca-Cola Zero	MCGZo7aOD5	FALSE	—	The Overlook Bar	FALSE
+Soft Mixer	Coca-Cola Zero	MCGZo7aOD5	FALSE	—	Trellis Bar	FALSE
+Zero Proof	Cocoberry Lemonade	BGmK31u0B9	FALSE	Coconut water, fresh blueberries, lemon juice, blueberry purée, coconut syrup, orgeat, butterfly pea tea and house-made lemonade	The Lemon Post Bar	TRUE
+Zero Proof	Coconut Cold Brew	ca2EcTigye	FALSE	Cold brew coffee, coconut syrup, vanilla sweet cream and a dash of cinnamon	Rye and Bean	TRUE
+Zero Proof	Coconut Lime Refresher	S5FbIYxAbS	FALSE	Lime juice, lemonade, coconut syrup and mint	1400 Lobby Bar	FALSE
+Zero Proof	Coconut Lime Refresher	S5FbIYxAbS	FALSE	Lime juice, lemonade, coconut syrup and mint	Boleros	FALSE
+Zero Proof	Coconut Lime Refresher	S5FbIYxAbS	FALSE	Lime juice, lemonade, coconut syrup and mint	Point and Feather Pub	FALSE
+Cocktail	Coconut Mojito	HvcxcteEcw	FALSE	RumHaven and Bacardi Superior rums, freshly squeezed lime juice, fresh lime, coconut and simple syrup, mint and club soda	Boleros	TRUE
+Cocktail	Coffee Boulevardier	ZsPE2PuYeZ	FALSE	Woodford Reserve bourbon, Campari and Mr Black coffee liqueur	Rye and Bean	TRUE
+Liqueurs	Cointreau	m2pd2rAVU0	FALSE	—	Aquadome Market Bar	FALSE
+Liqueurs	Cointreau	m2pd2rAVU0	FALSE	—	Music Hall	FALSE
+Liqueurs	Cointreau	m2pd2rAVU0	FALSE	—	The Overlook Bar	FALSE
+Liqueurs	Cointreau	m2pd2rAVU0	FALSE	—	Trellis Bar	FALSE
+White Wine	Conundrum	1YIlWCfKaX	TRUE	California, USA	Dueling Pianos	FALSE
+White Wine	Conundrum	1YIlWCfKaX	TRUE	California, USA	Music Hall	FALSE
+White Wine	Conundrum	1YIlWCfKaX	TRUE	California, USA	Schooner Bar	FALSE
+Cocktail	Cool as a Cucumber	fmxIPUKYD8	FALSE	Bombay Sapphire gin, St-Germain Elderflower liqueur, lemon juice, simple syrup and muddled cucumbers topped with club soda	Aquadome Market Bar	FALSE
+Cocktail	Cool as a Cucumber	fmxIPUKYD8	FALSE	Bombay Sapphire gin, St-Germain Elderflower liqueur, lemon juice, simple syrup and muddled cucumbers topped with club soda	Point and Feather Pub	FALSE
+Cocktail	Cool as a Cucumber	fmxIPUKYD8	FALSE	Bombay Sapphire gin, St-Germain Elderflower liqueur, lemon juice, simple syrup and muddled cucumbers topped with club soda	The Overlook Bar	FALSE
+Cocktail	Cool as a Cucumber	fmxIPUKYD8	FALSE	Bombay Sapphire gin, St-Germain Elderflower liqueur, lemon juice, simple syrup and muddled cucumbers topped with club soda	Trellis Bar	FALSE
+Beer	Coors Light	H9zx8VBPFt	FALSE	American pale lager 4.2% ABV	1400 Lobby Bar	FALSE
+Beer	Coors Light	H9zx8VBPFt	FALSE	American pale lager 4.2% ABV	Aquadome Market Bar	FALSE
+Beer	Coors Light	H9zx8VBPFt	FALSE	American pale lager 4.2% ABV	Boleros	FALSE
+Beer	Coors Light	H9zx8VBPFt	FALSE	American pale lager 4.2% ABV	Dueling Pianos	FALSE
+Beer	Coors Light	H9zx8VBPFt	FALSE	American pale lager 4.2% ABV	Music Hall	FALSE
+Beer	Coors Light	H9zx8VBPFt	FALSE	American pale lager 4.2% ABV	Playmakers Sports Bar	FALSE
+Beer	Coors Light	H9zx8VBPFt	FALSE	American pale lager 4.2% ABV	Schooner Bar	FALSE
+Beer	Coors Light	H9zx8VBPFt	FALSE	American pale lager 4.2% ABV	The Overlook Bar	FALSE
+Beer	Coors Light	H9zx8VBPFt	FALSE	American pale lager 4.2% ABV	Trellis Bar	FALSE
+Cocktail	Coral Blush	XzcFaA9LiK	FALSE	Ketel One Botanical Grapefruit & Rose vodka, guava syrup and Living Coral Sparkling Rosé	The Hideaway Bar	TRUE
+Beer	Corona Extra	WyARzulJtP	FALSE	Mexican pale lager 4.5% ABV	1400 Lobby Bar	FALSE
+Beer	Corona Extra	WyARzulJtP	FALSE	Mexican pale lager 4.5% ABV	Aquadome Market Bar	FALSE
+Beer	Corona Extra	WyARzulJtP	FALSE	Mexican pale lager 4.5% ABV	Boleros	FALSE
+Beer	Corona Extra	WyARzulJtP	FALSE	Mexican pale lager 4.5% ABV	Cantina Fresca	FALSE
+Beer	Corona Extra	WyARzulJtP	FALSE	Mexican pale lager 4.5% ABV	Dueling Pianos	FALSE
+Beer	Corona Extra	WyARzulJtP	FALSE	Mexican pale lager 4.5% ABV	Music Hall	FALSE
+Beer	Corona Extra	WyARzulJtP	FALSE	Mexican pale lager 4.5% ABV	Playmakers Sports Bar	FALSE
+Beer	Corona Extra	WyARzulJtP	FALSE	Mexican pale lager 4.5% ABV	Point and Feather Pub	FALSE
+Beer	Corona Extra	WyARzulJtP	FALSE	Mexican pale lager 4.5% ABV	Schooner Bar	FALSE
+Beer	Corona Extra	WyARzulJtP	FALSE	Mexican pale lager 4.5% ABV	The Lime and Coconut Bars	FALSE
+Beer	Corona Extra	WyARzulJtP	FALSE	Mexican pale lager 4.5% ABV	The Overlook Bar	FALSE
+Beer	Corona Extra	WyARzulJtP	FALSE	Mexican pale lager 4.5% ABV	Trellis Bar	FALSE
+Cocktail	Count Basie Clover Club	mAo59KbUwy	FALSE	Beefeater London Dry gin, sweet vermouth, raspberry purée, lemon juice and aquafaba	Lou’s Jazz n Blues	TRUE
+Cocktail	Cozumel Sunrise	lQdSC9NAkj	FALSE	Cuervo Gold tequila, mango, lime juice and grenadine	Aquadome Market Bar	FALSE
+Cocktail	Cozumel Sunrise	lQdSC9NAkj	FALSE	Cuervo Gold tequila, mango, lime juice and grenadine	Boleros	FALSE
+Cocktail	Cozumel Sunrise	lQdSC9NAkj	FALSE	Cuervo Gold tequila, mango, lime juice and grenadine	The Overlook Bar	FALSE
+Cocktail	Cozumel Sunrise	lQdSC9NAkj	FALSE	Cuervo Gold tequila, mango, lime juice and grenadine	Trellis Bar	FALSE
+Cocktail	Cozumel Surprise	zpRqeGMQ6l	FALSE	Jose Cuervo Gold tequila, mango, lime juice and grenadine	Cantina Fresca	TRUE
+Soft Mixer	Cranberry Juice	82HEJeCFta	FALSE	—	Aquadome Market Bar	FALSE
+Soft Mixer	Cranberry Juice	82HEJeCFta	FALSE	—	The Overlook Bar	FALSE
+Soft Mixer	Cranberry Juice	82HEJeCFta	FALSE	—	Trellis Bar	FALSE
+Zero Proof	Crave the Wave	8B8qALM1Xf	FALSE	Guava and watermelon syrup, lemon juice, cranberry juice and club soda	Point and Feather Pub	TRUE
+Whiskey & Bourbon	Crown Royal	LnzNQkjji0	FALSE	—	Music Hall	TRUE
+Cocktail	Curaçao Cosmo	MzFL6KsU9m	FALSE	Malibu Coconut rum, blue curaçao and pineapple juice	Aquadome Market Bar	FALSE
+Cocktail	Curaçao Cosmo	MzFL6KsU9m	FALSE	Malibu Coconut rum, blue curaçao and pineapple juice	The Overlook Bar	FALSE
+Cocktail	Curaçao Cosmo	MzFL6KsU9m	FALSE	Malibu Coconut rum, blue curaçao and pineapple juice	Trellis Bar	FALSE
+White Wine	Danzante Pinot Grigio	fNLYB9K3dl	FALSE	delle Venezie, Italy	Schooner Bar	FALSE
+White Wine	Danzante Pinot Grigio	fNLYB9K3dl	FALSE	delle Venezie, Italy	The Overlook Bar	FALSE
+White Wine	Danzante Pinot Grigio	fNLYB9K3dl	FALSE	delle Venezie, Italy	Trellis Bar	FALSE
+White Wine	Danzante, Pinot Grigio	jvOFgLeCuj	FALSE	Delle Venezie, Italy	1400 Lobby Bar	FALSE
+White Wine	Danzante, Pinot Grigio	jvOFgLeCuj	FALSE	Delle Venezie, Italy	Aquadome Market Bar	FALSE
+White Wine	Danzante, Pinot Grigio	jvOFgLeCuj	FALSE	Delle Venezie, Italy	Dueling Pianos	FALSE
+White Wine	Danzante, Pinot Grigio	jvOFgLeCuj	FALSE	Delle Venezie, Italy	Music Hall	FALSE
+Cocktail	Dark ‘n Stormy	IjelkAkiAn	FALSE	Gosling’s Black Seal rum and Gosling’s ginger beer	Aquadome Market Bar	FALSE
+Cocktail	Dark ‘n Stormy	IjelkAkiAn	FALSE	Gosling’s Black Seal rum and Gosling’s ginger beer	The Overlook Bar	FALSE
+Cocktail	Dark ‘n Stormy	IjelkAkiAn	FALSE	Gosling’s Black Seal rum and Gosling’s ginger beer	Trellis Bar	FALSE
+Beer	Daura Damm	NGhFLsIe3A	FALSE	Spain, gluten-free beer	Point and Feather Pub	FALSE
+Beer	Daura Damm	NGhFLsIe3A	FALSE	Spain, gluten-free beer	Schooner Bar	FALSE
+Beer	Daura Damm	NGhFLsIe3A	FALSE	Spain, gluten-free beer	The Overlook Bar	FALSE
+Beer	Daura Damm	NGhFLsIe3A	FALSE	Spain, gluten-free beer	Trellis Bar	FALSE
+Cocktail	Desert Pear Margarita	ZC67np56AC	FALSE	Patrón Silver tequila, desert pear syrup and lime juice	Schooner Bar	FALSE
+Cocktail	Desert Pear Margarita	ZC67np56AC	FALSE	Patrón Silver tequila, desert pear syrup and lime juice	Schooner Bar	FALSE
+Scotch	Dewar’s White	0FA4U2w7BL	FALSE	—	Aquadome Market Bar	TRUE
+Whiskey & Bourbon	Dewar’s White Label	zJ7A9fScMW	FALSE	—	Music Hall	FALSE
+Whiskey & Bourbon	Dewar’s White Label	zJ7A9fScMW	FALSE	—	The Overlook Bar	FALSE
+Whiskey & Bourbon	Dewar’s White Label	zJ7A9fScMW	FALSE	—	Trellis Bar	FALSE
+Soft Mixer	Diet Coke	iiIESoHWtA	FALSE	—	Aquadome Market Bar	FALSE
+Soft Mixer	Diet Coke	iiIESoHWtA	FALSE	—	The Overlook Bar	FALSE
+Soft Mixer	Diet Coke	iiIESoHWtA	FALSE	—	Trellis Bar	FALSE
+Liqueurs	Disaronno Amaretto	AoAzyibw7e	FALSE	—	Aquadome Market Bar	FALSE
+Liqueurs	Disaronno Amaretto	AoAzyibw7e	FALSE	—	The Overlook Bar	FALSE
+Liqueurs	Disaronno Amaretto	AoAzyibw7e	FALSE	—	Trellis Bar	FALSE
+Sparkling Wine	Dom Pérignon	wCqE3mMuXA	TRUE	Champagne	Bubbles	TRUE
+Beer	Dos Equis	NyLMQ4PWcK	FALSE	Mexican lager 4.2% ABV	Aquadome Market Bar	FALSE
+Beer	Dos Equis	NyLMQ4PWcK	FALSE	Mexican lager 4.2% ABV	Cantina Fresca	FALSE
+Beer	Dos Equis	NyLMQ4PWcK	FALSE	Mexican lager 4.2% ABV	Music Hall	FALSE
+Beer	Dos Equis	NyLMQ4PWcK	FALSE	Mexican lager 4.2% ABV	Playmakers Sports Bar	FALSE
+Beer	Dos Equis	NyLMQ4PWcK	FALSE	Mexican lager 4.2% ABV	Point and Feather Pub	FALSE
+Beer	Dos Equis	NyLMQ4PWcK	FALSE	Mexican lager 4.2% ABV	Schooner Bar	FALSE
+Beer	Dos Equis	NyLMQ4PWcK	FALSE	Mexican lager 4.2% ABV	The Overlook Bar	FALSE
+Beer	Dos Equis	NyLMQ4PWcK	FALSE	Mexican lager 4.2% ABV	Trellis Bar	FALSE
+Beer	Dos Equis	NyLMQ4PWcK	FALSE	Mexican lager 4.2% ABV	Boleros	FALSE
+Beer	Dos Equis	NyLMQ4PWcK	FALSE	Mexican lager 4.2% ABV	Dueling Pianos	FALSE
+Liqueurs	Drambuie	Etncd2ZdSz	FALSE	—	Aquadome Market Bar	FALSE
+Liqueurs	Drambuie	Etncd2ZdSz	FALSE	—	The Overlook Bar	FALSE
+Liqueurs	Drambuie	Etncd2ZdSz	FALSE	—	Trellis Bar	FALSE
+Soft Mixer	Elderflower Tonic	v74aq7u9L5	FALSE	—	Point and Feather Pub	TRUE
+Red Wine	Estancia Pinot Noir	M1YjbxElTv	FALSE	Monterey County, California, USA	Schooner Bar	FALSE
+Red Wine	Estancia Pinot Noir	M1YjbxElTv	FALSE	Monterey County, California, USA	The Overlook Bar	FALSE
+Red Wine	Estancia Pinot Noir	M1YjbxElTv	FALSE	Monterey County, California, USA	Trellis Bar	FALSE
+Red Wine	Estancia Pinot Noir	M1YjbxElTv	FALSE	Monterey County, California, USA	1400 Lobby Bar	FALSE
+Red Wine	Estancia Pinot Noir	M1YjbxElTv	FALSE	Monterey County, California, USA	Aquadome Market Bar	FALSE
+Red Wine	Estancia Pinot Noir	M1YjbxElTv	FALSE	Monterey County, California, USA	Dueling Pianos	FALSE
+Red Wine	Estancia Pinot Noir	M1YjbxElTv	FALSE	Monterey County, California, USA	Music Hall	FALSE
+Beer	Estrella Damm	ipTRIMnWXj	FALSE	Spain, pale lager	Point and Feather Pub	TRUE
+Soft Mixer	Fanta Orange	8SHxzLhLbe	FALSE	—	Aquadome Market Bar	FALSE
+Soft Mixer	Fanta Orange	8SHxzLhLbe	FALSE	—	The Overlook Bar	FALSE
+Soft Mixer	Fanta Orange	8SHxzLhLbe	FALSE	—	Trellis Bar	FALSE
+Apéritif	Fernet-Branca	w1rz5vc0FA	FALSE	—	Aquadome Market Bar	FALSE
+Apéritif	Fernet-Branca	w1rz5vc0FA	FALSE	—	The Overlook Bar	FALSE
+Apéritif	Fernet-Branca	w1rz5vc0FA	FALSE	—	Trellis Bar	FALSE
+Cocktail	Fiestas Patrias	H6HHwHhPBh	FALSE	Ilegal Joven mezcal, fresh watermelon, coconut syrup, lime and watermelon juice	Boleros	TRUE
+Whiskey & Bourbon	Fireball Cinnamon	z1KtMdrWiH	FALSE	—	Aquadome Market Bar	FALSE
+Whiskey & Bourbon	Fireball Cinnamon	z1KtMdrWiH	FALSE	—	Music Hall	FALSE
+Whiskey & Bourbon	Fireball Cinnamon	z1KtMdrWiH	FALSE	—	The Overlook Bar	FALSE
+Whiskey & Bourbon	Fireball Cinnamon	z1KtMdrWiH	FALSE	—	Trellis Bar	FALSE
+Beer	Foster’s Oil Can	CPh99m2vYM	FALSE	Australian pale lager 5% ABV	Aquadome Market Bar	FALSE
+Beer	Foster’s Oil Can	CPh99m2vYM	FALSE	Australian pale lager 5% ABV	Music Hall	FALSE
+Beer	Foster’s Oil Can	CPh99m2vYM	FALSE	Australian pale lager 5% ABV	Schooner Bar	FALSE
+Beer	Foster’s Oil Can	CPh99m2vYM	FALSE	Australian pale lager 5% ABV	The Overlook Bar	FALSE
+Beer	Foster’s Oil Can	CPh99m2vYM	FALSE	Australian pale lager 5% ABV	Trellis Bar	FALSE
+Beer	Foster’s Oil Can	CPh99m2vYM	FALSE	Australian pale lager 5% ABV	Playmakers Sports Bar	FALSE
+Beer	Foster’s Oil Can	CPh99m2vYM	FALSE	Australian pale lager 5% ABV	Dueling Pianos	FALSE
+Liqueurs	Frangelico	jrEwKDKeEF	FALSE	—	Aquadome Market Bar	FALSE
+Liqueurs	Frangelico	jrEwKDKeEF	FALSE	—	The Overlook Bar	FALSE
+Liqueurs	Frangelico	jrEwKDKeEF	FALSE	—	Trellis Bar	FALSE
+Cocktail	Free Fall	1hp538x02o	FALSE	Ketel One Botanical Orange Blossom vodka, Campari, Cointreau, blood orange purée, lemon sour and soda water	1400 Lobby Bar	TRUE
+Cocktail	Frozen Irish Coffee	ULRf6Cxp7l	FALSE	Jameson Irish whiskey, cold brew coffee, Mr Black coffee liqueur and simple syrup	Rye and Bean	TRUE
+Cocktail	Garden Breeze	XB6BXk1KjN	TRUE	Bacardi Superior rum, passion fruit syrup, lime juice, mint and Domaine Chandon	Bubbles	TRUE
+Whiskey & Bourbon	Gentleman Jack	qtFbnxBe8q	FALSE	—	Aquadome Market Bar	FALSE
+Whiskey & Bourbon	Gentleman Jack	qtFbnxBe8q	FALSE	—	Music Hall	FALSE
+Whiskey & Bourbon	Gentleman Jack	qtFbnxBe8q	FALSE	—	The Overlook Bar	FALSE
+Whiskey & Bourbon	Gentleman Jack	qtFbnxBe8q	FALSE	—	Trellis Bar	FALSE
+Soft Mixer	Ginger Ale	fwyhmFVjAC	FALSE	—	Aquadome Market Bar	FALSE
+Soft Mixer	Ginger Ale	fwyhmFVjAC	FALSE	—	The Overlook Bar	FALSE
+Soft Mixer	Ginger Ale	fwyhmFVjAC	FALSE	—	Trellis Bar	FALSE
+Cocktail	Girl From Ipanema	VTKhvzHDTg	FALSE	Leblon Cachaça rum, St-Germain Elderflower liqueur, strawberry purée, aquafaba and lemon juice	Boleros	TRUE
+Scotch	Glenfiddich	B7Ap9LXPFr	FALSE	—	Aquadome Market Bar	FALSE
+Scotch	Glenfiddich	B7Ap9LXPFr	FALSE	—	The Overlook Bar	FALSE
+Scotch	Glenfiddich	B7Ap9LXPFr	FALSE	—	Trellis Bar	FALSE
+Cocktail	Goal Post Margarita	BIfN9AImod	FALSE	Tequila, muddled pineapple, sour mix and jalapeño on the rocks with a salt rim	Playmakers Sports Bar	TRUE
+Cocktail	Goombay Smash	wa8XS9MsjS	FALSE	Malibu Coconut rum, Kraken Black Spiced rum, orange juice and pineapple juice	Aquadome Market Bar	FALSE
+Cocktail	Goombay Smash	wa8XS9MsjS	FALSE	Malibu Coconut rum, Kraken Black Spiced rum, orange juice and pineapple juice	The Lime and Coconut Bars	FALSE
+Cocktail	Goombay Smash	wa8XS9MsjS	FALSE	Malibu Coconut rum, Kraken Black Spiced rum, orange juice and pineapple juice	The Overlook Bar	FALSE
+Cocktail	Goombay Smash	wa8XS9MsjS	FALSE	Malibu Coconut rum, Kraken Black Spiced rum, orange juice and pineapple juice	Trellis Bar	FALSE
+Rum	Gosling’s	sAIwpwiuiV	FALSE	—	The Overlook Bar	TRUE
+Liqueurs	Grand Marnier	dviNUIAv7T	FALSE	—	Aquadome Market Bar	FALSE
+Liqueurs	Grand Marnier	dviNUIAv7T	FALSE	—	Music Hall	FALSE
+Liqueurs	Grand Marnier	dviNUIAv7T	FALSE	—	The Overlook Bar	FALSE
+Liqueurs	Grand Marnier	dviNUIAv7T	FALSE	—	Trellis Bar	FALSE
+Soft Mixer	Grapefruit Juice	sleMQZ15fS	FALSE	—	Aquadome Market Bar	FALSE
+Soft Mixer	Grapefruit Juice	sleMQZ15fS	FALSE	—	The Overlook Bar	FALSE
+Soft Mixer	Grapefruit Juice	sleMQZ15fS	FALSE	—	Trellis Bar	FALSE
+Zero Proof	Green Sea Monster	E0KHGlSdaM	FALSE	Green apple syrup, shark gummies and house-made lemonade	The Lemon Post Bar	TRUE
+Vodka	Grey Goose	KEGbB5scrE	FALSE	—	Music Hall	FALSE
+Vodka	Grey Goose	KEGbB5scrE	FALSE	—	The Overlook Bar	FALSE
+Beer	Grolsch	bpU5Ak962i	FALSE	The Netherlands, lager	Point and Feather Pub	TRUE
+Cocktail	Guava Hot Toddy	aIKozaOz8g	FALSE	Goslings Black Seal rum, guava syrup and Earl Grey tea	Rye and Bean	TRUE
+Beer	Guinness Draught	9A0ndGHQnA	FALSE	Irish stout 4.2% ABV	Point and Feather Pub	FALSE
+Beer	Guinness Draught	9A0ndGHQnA	FALSE	Irish stout 4.2% ABV	Playmakers Sports Bar	FALSE
+Cocktail	Handcrafted Margarita	rsoUJ6ofJo	FALSE	Patrón Silver tequila, Cointreau, lime juice, agave syrup and muddled limes and oranges with a salt rim	Cantina Fresca	FALSE
+Cocktail	Handcrafted Margarita	rsoUJ6ofJo	FALSE	Patrón Silver tequila, Cointreau, lime juice, agave syrup and muddled limes and oranges with a salt rim	Aquadome Market Bar	FALSE
+Cocktail	Handcrafted Margarita	rsoUJ6ofJo	FALSE	Patrón Silver tequila, Cointreau, lime juice, agave syrup and muddled limes and oranges with a salt rim	Boleros	FALSE
+Cocktail	Handcrafted Margarita	rsoUJ6ofJo	FALSE	Patrón Silver tequila, Cointreau, lime juice, agave syrup and muddled limes and oranges with a salt rim	The Overlook Bar	FALSE
+Cocktail	Handcrafted Margarita	rsoUJ6ofJo	FALSE	Patrón Silver tequila, Cointreau, lime juice, agave syrup and muddled limes and oranges with a salt rim	Trellis Bar	FALSE
+Beer	Heineken	al4XYc7O7o	FALSE	Dutch pale lager 5.0% ABV	1400 Lobby Bar	FALSE
+Beer	Heineken	al4XYc7O7o	FALSE	Dutch pale lager 5.0% ABV	Aquadome Market Bar	FALSE
+Beer	Heineken	al4XYc7O7o	FALSE	Dutch pale lager 5.0% ABV	Boleros	FALSE
+Beer	Heineken	al4XYc7O7o	FALSE	Dutch pale lager 5.0% ABV	Dueling Pianos	FALSE
+Beer	Heineken	al4XYc7O7o	FALSE	Dutch pale lager 5.0% ABV	Music Hall	FALSE
+Beer	Heineken	al4XYc7O7o	FALSE	Dutch pale lager 5.0% ABV	Playmakers Sports Bar	FALSE
+Beer	Heineken	al4XYc7O7o	FALSE	Dutch pale lager 5.0% ABV	Point and Feather Pub	FALSE
+Beer	Heineken	al4XYc7O7o	FALSE	Dutch pale lager 5.0% ABV	Schooner Bar	FALSE
+Beer	Heineken	al4XYc7O7o	FALSE	Dutch pale lager 5.0% ABV	The Overlook Bar	FALSE
+Beer	Heineken	al4XYc7O7o	FALSE	Dutch pale lager 5.0% ABV	Trellis Bar	FALSE
+Zero Proof	Heineken 0.0	qCRDswRA8J	FALSE	Non-alcoholic	1400 Lobby Bar	FALSE
+Zero Proof	Heineken 0.0	qCRDswRA8J	FALSE	Non-alcoholic	Aquadome Market Bar	FALSE
+Zero Proof	Heineken 0.0	qCRDswRA8J	FALSE	Non-alcoholic	Playmakers Sports Bar	FALSE
+Zero Proof	Heineken 0.0	qCRDswRA8J	FALSE	Non-alcoholic	Point and Feather Pub	FALSE
+Zero Proof	Heineken 0.0	qCRDswRA8J	FALSE	Non-alcoholic	Schooner Bar	FALSE
+Zero Proof	Heineken 0.0	qCRDswRA8J	FALSE	Non-alcoholic	The Overlook Bar	FALSE
+Zero Proof	Heineken 0.0	qCRDswRA8J	FALSE	Non-alcoholic	Trellis Bar	FALSE
+Cocktail	Hemingway Daiquiri	s7nFe1tZsU	FALSE	White rum, maraschino liqueur, simple syrup and freshly squeezed lime and grapefruit juices	Boleros	TRUE
+Gin	Hendrick’s	AfddxckSLH	FALSE	—	Music Hall	FALSE
+Gin	Hendrick’s	AfddxckSLH	FALSE	—	Point and Feather Pub	FALSE
+Gin	Hendrick’s	AfddxckSLH	FALSE	—	The Overlook Bar	FALSE
+Cognac	Hennessy Black	SXiWde8dI9	FALSE	—	Aquadome Market Bar	FALSE
+Cognac	Hennessy Black	SXiWde8dI9	FALSE	—	The Overlook Bar	FALSE
+Cognac	Hennessy Black	SXiWde8dI9	FALSE	—	Trellis Bar	FALSE
+Cognac	Hennessy V.S	fbSZjeQi0M	FALSE	—	The Overlook Bar	FALSE
+Cognac	Hennessy V.S	fbSZjeQi0M	FALSE	—	Trellis Bar	FALSE
+Cognac	Hennessy V.S.	hFIGeqDAPf	FALSE	—	Aquadome Market Bar	TRUE
+Cognac	Hennessy X.O	0ksAGAisaY	TRUE	—	Music Hall	TRUE
+Cocktail	Hibiscus Tea Punch	Lz5hqBAAZQ	FALSE	Absolut Citron vodka, Cointreau, hibiscus tea syrup, lemon juice and prosecco	Rye and Bean	TRUE
+Cocktail	Hotel California	VTMigBQthL	FALSE	Tequila, pineapple and orange juices topped with grenadine and Tabasco sauce	Dueling Pianos	FALSE
+Cocktail	Hotel California	VTMigBQthL	FALSE	Tequila, pineapple and orange juices topped with grenadine and Tabasco sauce	Music Hall	FALSE
+Cocktail	Hotel California	VTMigBQthL	FALSE	Tequila, pineapple and orange juices topped with grenadine and Tabasco sauce	Spotlight Karaoke	FALSE
+Cocktail	Hurricane	CKfCiii5pL	FALSE	Bacardi Superior rum, Bacardi Reserva Ocho rum, lime and orange juices, passion fruit syrup, simple syrup and grenadine	Lou’s Jazz n Blues	TRUE
+Cocktail	Ice Ice Baby	hPFuyiFcOE	FALSE	Vodka, blue curaçao, pineapple juice and Truly Wild Berry Hard Seltzer	Dueling Pianos	FALSE
+Cocktail	Ice Ice Baby	hPFuyiFcOE	FALSE	Vodka, blue curaçao, pineapple juice and Truly Wild Berry Hard Seltzer	Music Hall	FALSE
+Cocktail	Ice Ice Baby	hPFuyiFcOE	FALSE	Vodka, blue curaçao, pineapple juice and Truly Wild Berry Hard Seltzer	Spotlight Karaoke	FALSE
+Cocktail	Icon & Gin	JBvN5ocwsp	FALSE	Bombay Sapphire gin and Iconic Tonic	Swim n Tonic	TRUE
+Cocktail	Iconic G&T	Zdac4Au7UR	FALSE	Bombay Sapphire gin and Iconic Tonic	1400 Lobby Bar	TRUE
+Tequila & Mezcal	Ilegal Joven	UvyxbyRJ32	FALSE	—	The Overlook Bar	TRUE
+Cocktail	Irish Peach	xJF4FAlU79	FALSE	Jameson Irish whiskey, peach, lemon juice and bitters with a dash of black pepper	Schooner Bar	FALSE
+Cocktail	Irish Peach	xJF4FAlU79	FALSE	Jameson Irish whiskey, peach, lemon juice and bitters with a dash of black pepper	Schooner Bar	FALSE
+Cocktail	Jack and Diane	u4bTraFpD7	FALSE	Jack Daniel’s Tennessee whiskey, amaretto and sweet & sour topped with club soda	Dueling Pianos	FALSE
+Cocktail	Jack and Diane	u4bTraFpD7	FALSE	Jack Daniel’s Tennessee whiskey, amaretto and sweet & sour topped with club soda	Music Hall	FALSE
+Cocktail	Jack and Diane	u4bTraFpD7	FALSE	Jack Daniel’s Tennessee whiskey, amaretto and sweet & sour topped with club soda	Spotlight Karaoke	FALSE
+Whiskey & Bourbon	Jack Daniel’s	vfQqBtOASs	FALSE	—	Aquadome Market Bar	FALSE
+Whiskey & Bourbon	Jack Daniel’s	vfQqBtOASs	FALSE	—	Music Hall	FALSE
+Whiskey & Bourbon	Jack Daniel’s	vfQqBtOASs	FALSE	—	The Overlook Bar	FALSE
+Whiskey & Bourbon	Jack Daniel’s	vfQqBtOASs	FALSE	—	Trellis Bar	FALSE
+Apéritif	Jägermeister	aFk7HLnpUz	FALSE	—	Aquadome Market Bar	FALSE
+Apéritif	Jägermeister	aFk7HLnpUz	FALSE	—	The Overlook Bar	FALSE
+Apéritif	Jägermeister	aFk7HLnpUz	FALSE	—	Trellis Bar	FALSE
+Whiskey & Bourbon	Jameson	dyLlV7TVT7	FALSE	—	Aquadome Market Bar	FALSE
+Whiskey & Bourbon	Jameson	dyLlV7TVT7	FALSE	—	The Overlook Bar	FALSE
+Whiskey & Bourbon	Jameson	dyLlV7TVT7	FALSE	—	Trellis Bar	FALSE
+Whiskey & Bourbon	Jameson	dyLlV7TVT7	FALSE	—	Music Hall	FALSE
+Cocktail	Jazzy Saz	pNjV2NjrAl	FALSE	Woodford Reserve bourbon, Hennessy V.S.O.P., Peychaud’s bitters, absinthe and simple syrup	Lou’s Jazz n Blues	TRUE
+Scotch	Johnnie Walker Black	ODFsBgTDTD	FALSE	—	Aquadome Market Bar	FALSE
+Scotch	Johnnie Walker Black	ODFsBgTDTD	FALSE	—	The Overlook Bar	FALSE
+Scotch	Johnnie Walker Black	ODFsBgTDTD	FALSE	—	Trellis Bar	FALSE
+Scotch	Johnnie Walker Black	ODFsBgTDTD	FALSE	—	Music Hall	FALSE
+Scotch	Johnnie Walker Double Black	jtbDTqNzuQ	FALSE	—	Aquadome Market Bar	FALSE
+Scotch	Johnnie Walker Double Black	jtbDTqNzuQ	FALSE	—	The Overlook Bar	FALSE
+Scotch	Johnnie Walker Double Black	jtbDTqNzuQ	FALSE	—	Trellis Bar	FALSE
+Cocktail	Joropo	NChEzAGvIq	FALSE	Hard Truth Toasted Coconut rum, coconut water, aquafaba, simple syrup and lime juice, topped with coconut and shaken bitters	Boleros	TRUE
+Tequila & Mezcal	Jose Cuervo	Fl523pvGkv	FALSE	—	Music Hall	TRUE
+Tequila & Mezcal	Jose Cuervo Gold	xnthswwFd7	FALSE	—	The Overlook Bar	TRUE
+Tequila & Mezcal	Jose Cuervo Silver	pKFUxCZLi5	FALSE	—	The Overlook Bar	TRUE
+Liqueurs	Kahlúa	nEVz6S96hk	FALSE	—	Aquadome Market Bar	FALSE
+Liqueurs	Kahlúa	nEVz6S96hk	FALSE	—	Music Hall	FALSE
+Liqueurs	Kahlúa	nEVz6S96hk	FALSE	—	The Overlook Bar	FALSE
+Liqueurs	Kahlúa	nEVz6S96hk	FALSE	—	Trellis Bar	FALSE
+Red Wine	Kendall-Jackson Cabernet Sauvignon “Vintner’s Reserve”	AzAsQvLL5J	FALSE	Sonoma County, California, USA	Schooner Bar	FALSE
+Red Wine	Kendall-Jackson Cabernet Sauvignon “Vintner’s Reserve”	AzAsQvLL5J	FALSE	Sonoma County, California, USA	The Overlook Bar	FALSE
+Red Wine	Kendall-Jackson Cabernet Sauvignon “Vintner’s Reserve”	AzAsQvLL5J	FALSE	Sonoma County, California, USA	Trellis Bar	FALSE
+White Wine	Kendall-Jackson Chardonnay “Vintner’s Reserve”	Bv0lDRhaYf	FALSE	California, USA	Schooner Bar	FALSE
+White Wine	Kendall-Jackson Chardonnay “Vintner’s Reserve”	Bv0lDRhaYf	FALSE	California, USA	The Overlook Bar	FALSE
+White Wine	Kendall-Jackson Chardonnay “Vintner’s Reserve”	Bv0lDRhaYf	FALSE	California, USA	Trellis Bar	FALSE
+Red Wine	Kendall-Jackson Cabernet Sauvignon “Vintner’s Reserve”	AzAsQvLL5J	FALSE	Sonoma County, California, USA	Music Hall	FALSE
+Red Wine	Kendall-Jackson Cabernet Sauvignon “Vintner’s Reserve”	AzAsQvLL5J	FALSE	Sonoma County, California, USA	Aquadome Market Bar	FALSE
+White Wine	Kendall-Jackson Chardonnay “Vintner’s Reserve”	Bv0lDRhaYf	FALSE	California, USA	Dueling Pianos	FALSE
+White Wine	Kendall-Jackson Chardonnay “Vintner’s Reserve”	Bv0lDRhaYf	FALSE	California, USA	Music Hall	FALSE
+White Wine	Kendall-Jackson Chardonnay “Vintner’s Reserve”	Bv0lDRhaYf	FALSE	California, USA	1400 Lobby Bar	FALSE
+White Wine	Kendall-Jackson Chardonnay “Vintner’s Reserve”	Bv0lDRhaYf	FALSE	California, USA	Aquadome Market Bar	FALSE
+Beer	Kentucky Bourbon Barrel Ale	vchsbsxAhG	FALSE	Barrel-aged ale 10 oz	Playmakers Sports Bar	TRUE
+Cocktail	Kentucky Summer	f2AAGFtyzg	FALSE	Buffalo Trace bourbon, St-Germain elderflower liqueur, mint leaves, mango and lime juice	Aquadome Market Bar	FALSE
+Cocktail	Kentucky Summer	f2AAGFtyzg	FALSE	Buffalo Trace bourbon, St-Germain elderflower liqueur, mint leaves, mango and lime juice	Schooner Bar	FALSE
+Cocktail	Kentucky Summer	f2AAGFtyzg	FALSE	Buffalo Trace bourbon, St-Germain elderflower liqueur, mint leaves, mango and lime juice	Schooner Bar	FALSE
+Cocktail	Kentucky Summer	f2AAGFtyzg	FALSE	Buffalo Trace bourbon, St-Germain elderflower liqueur, mint leaves, mango and lime juice	The Overlook Bar	FALSE
+Cocktail	Kentucky Summer	f2AAGFtyzg	FALSE	Buffalo Trace bourbon, St-Germain elderflower liqueur, mint leaves, mango and lime juice	Trellis Bar	FALSE
+Cocktail	Kettle One Espresso Martini	PMRAY5plCB	FALSE	Ketel One vodka, Kahlúa, cold brew coffee and simple syrup	Rye and Bean	TRUE
+White Wine	Kim Crawford Sauvignon Blanc	XcTAs3J20p	FALSE	Marlborough, New Zealand	Schooner Bar	FALSE
+White Wine	Kim Crawford Sauvignon Blanc	XcTAs3J20p	FALSE	Marlborough, New Zealand	The Overlook Bar	FALSE
+White Wine	Kim Crawford Sauvignon Blanc	XcTAs3J20p	FALSE	Marlborough, New Zealand	Trellis Bar	FALSE
+White Wine	Kim Crawford, Sauvignon Blanc	xJgLbYNhdD	FALSE	Marlborough, New Zealand	1400 Lobby Bar	FALSE
+White Wine	Kim Crawford, Sauvignon Blanc	xJgLbYNhdD	FALSE	Marlborough, New Zealand	Aquadome Market Bar	FALSE
+White Wine	Kim Crawford, Sauvignon Blanc	xJgLbYNhdD	FALSE	Marlborough, New Zealand	Dueling Pianos	FALSE
+White Wine	Kim Crawford, Sauvignon Blanc	xJgLbYNhdD	FALSE	Marlborough, New Zealand	Music Hall	FALSE
+Cocktail	Knockout Punch	C6LsvDuLHh	FALSE	Light rum, pineapple juice, orange juice, grenadine and a dark rum float	Playmakers Sports Bar	TRUE
+Rum	Kraken	NRXcPf5GGr	FALSE	—	The Overlook Bar	TRUE
+Beer	Lagunitas Island Beats	z2fmvEQUvW	FALSE	American tropical IPA 5% ABV	Playmakers Sports Bar	TRUE
+Cocktail	Lavender Daiquiri	qUL8zmzhDb	FALSE	Bacardi Superior rum, lavender syrup and lemon juice	Schooner Bar	FALSE
+Cocktail	Lavender Daiquiri	qUL8zmzhDb	FALSE	Bacardi Superior rum, lavender syrup and lemon juice	Schooner Bar	FALSE
+Rum	Leblon Cachaça	p8Bb7XAH3i	FALSE	—	The Overlook Bar	TRUE
+Beer	Leffe Blonde	zi4CY8e6XN	FALSE	Belgium, Belgian white	Point and Feather Pub	TRUE
+Zero Proof	Lifesaver Lemonade	ZA94zJveMX	FALSE	Coconut water, lemon juice, coconut syrup, orgeat, fresh pineapple and house-made lemonade	The Lemon Post Bar	TRUE
+Cocktail	Lime & Coconut	aeKAADbrzS	FALSE	Malibu Coconut rum, coconut milk, coconut syrup, guava syrup and lime juice	The Lime and Coconut Bars	TRUE
+Cocktail	Limoncello & Tonic	DA17aekr3i	FALSE	Limoncello, St-Germain elderflower liqueur, lemon juice and tonic	Point and Feather Pub	FALSE
+Cocktail	Limoncello & Tonic	DA17aekr3i	FALSE	Limoncello, St-Germain elderflower liqueur, lemon juice and tonic	Swim n Tonic	FALSE
+Sparkling Wine	Living Coral Sparkling Rosé	wQOMMUEbjs	FALSE	Sparkling Rosé	Bubbles	TRUE
+Cocktail	Living Garden	HCb19WicBf	FALSE	Ketel One Botanical Grapefruit & Rose vodka, Aperol, honey syrup, lemon and orange juice	1400 Lobby Bar	TRUE
+Whiskey & Bourbon	Maker’s Mark	orIUFX2Edr	FALSE	—	Aquadome Market Bar	FALSE
+Whiskey & Bourbon	Maker’s Mark	orIUFX2Edr	FALSE	—	Music Hall	FALSE
+Whiskey & Bourbon	Maker’s Mark	orIUFX2Edr	FALSE	—	The Overlook Bar	FALSE
+Whiskey & Bourbon	Maker’s Mark	orIUFX2Edr	FALSE	—	Trellis Bar	FALSE
+Rum	Malibu	AJt9eCPIwU	FALSE	—	The Overlook Bar	FALSE
+Rum	Malibu	AJt9eCPIwU	FALSE	—	Music Hall	FALSE
+Cocktail	Merlon Ball Smash	3oQLEQ7soH	TRUE	Midori, vodka, fresh orange and lemon juice, simple syrup and club soda served in a souvenir helmet	Playmakers Sports Bar	TRUE
+Red Wine	Wolf Blass Yellow Label Merlot	EcAqjFrC4D	FALSE	Wolf Blass Yellow Label, South Australia	Playmakers Sports Bar	TRUE
+Cocktail	Metalliquor 1	ba5wh4oAVk	FALSE	Malibu Coconut rum, raspberry liqueur and pineapple juice topped with cranberry juice	Dueling Pianos	TRUE
+Cocktail	Metalliquor 2	5HKlSm2N5S	FALSE	Vanilla vodka and raspberry liqueur topped with cranberry juice	Music Hall	TRUE
+Cocktail	Metalliquor 3	yP0YbDsORE	FALSE	Vanilla vodka, raspberry liqueur and pineapple juice topped with cranberry juice	Spotlight Karaoke	TRUE
+Cocktail	Mezcal Mule	ctaR7XJGab	FALSE	Ilegal Joven mezcal, guava and passion fruit syrups, pineapple juice, lime juice and Gosling’s ginger beer	Aquadome Market Bar	FALSE
+Cocktail	Mezcal Mule	ctaR7XJGab	FALSE	Ilegal Joven mezcal, guava and passion fruit syrups, pineapple juice, lime juice and Gosling’s ginger beer	Boleros	FALSE
+Cocktail	Mezcal Mule	ctaR7XJGab	FALSE	Ilegal Joven mezcal, guava and passion fruit syrups, pineapple juice, lime juice and Gosling’s ginger beer	Cantina Fresca	FALSE
+Cocktail	Mezcal Mule	ctaR7XJGab	FALSE	Ilegal Joven mezcal, guava and passion fruit syrups, pineapple juice, lime juice and Gosling’s ginger beer	The Overlook Bar	FALSE
+Cocktail	Mezcal Mule	ctaR7XJGab	FALSE	Ilegal Joven mezcal, guava and passion fruit syrups, pineapple juice, lime juice and Gosling’s ginger beer	Trellis Bar	FALSE
+Rum	Miami Club	4r8v4ex25v	FALSE	—	The Overlook Bar	TRUE
+Cocktail	Michelada	Cbnvp0AMYM	FALSE	Beer, tomato juice, hot sauce, lime juice and salt	Cantina Fresca	TRUE
+Beer	Michelob Ultra	uZFLWM7LAh	FALSE	American light lager 4.2% ABV	1400 Lobby Bar	FALSE
+Beer	Michelob Ultra	uZFLWM7LAh	FALSE	American light lager 4.2% ABV	Aquadome Market Bar	FALSE
+Beer	Michelob Ultra	uZFLWM7LAh	FALSE	American light lager 4.2% ABV	Dueling Pianos	FALSE
+Beer	Michelob Ultra	uZFLWM7LAh	FALSE	American light lager 4.2% ABV	Playmakers Sports Bar	FALSE
+Beer	Michelob Ultra	uZFLWM7LAh	FALSE	American light lager 4.2% ABV	The Overlook Bar	FALSE
+Beer	Michelob Ultra	uZFLWM7LAh	FALSE	American light lager 4.2% ABV	Trellis Bar	FALSE
+Liqueurs	Midori Melon	qHBuDUvWkW	FALSE	—	Aquadome Market Bar	FALSE
+Liqueurs	Midori Melon	qHBuDUvWkW	FALSE	—	The Overlook Bar	FALSE
+Liqueurs	Midori Melon	qHBuDUvWkW	FALSE	—	Trellis Bar	FALSE
+Cocktail	Millennium Bellini	u3Ts6x5QBW	FALSE	Santa Elvira Prosecco and peach purée	1400 Lobby Bar	TRUE
+Beer	Miller Lite	Dz9lfGCAvi	FALSE	American light pilsner 4.2% ABV	Aquadome Market Bar	FALSE
+Beer	Miller Lite	Dz9lfGCAvi	FALSE	American light pilsner 4.2% ABV	Boleros	FALSE
+Beer	Miller Lite	Dz9lfGCAvi	FALSE	American light pilsner 4.2% ABV	Cantina Fresca	FALSE
+Beer	Miller Lite	Dz9lfGCAvi	FALSE	American light pilsner 4.2% ABV	Dueling Pianos	FALSE
+Beer	Miller Lite	Dz9lfGCAvi	FALSE	American light pilsner 4.2% ABV	Playmakers Sports Bar	FALSE
+Beer	Miller Lite	Dz9lfGCAvi	FALSE	American light pilsner 4.2% ABV	Schooner Bar	FALSE
+Beer	Miller Lite	Dz9lfGCAvi	FALSE	American light pilsner 4.2% ABV	The Lime and Coconut Bars	FALSE
+Beer	Miller Lite	Dz9lfGCAvi	FALSE	American light pilsner 4.2% ABV	The Overlook Bar	FALSE
+Beer	Miller Lite	Dz9lfGCAvi	FALSE	American light pilsner 4.2% ABV	Trellis Bar	FALSE
+Cocktail	Mimosa	b3DdIkr6Pe	FALSE	Sparkling wine and orange juice	Bubbles	TRUE
+Cocktail	Mint Berry Delight	baxOR0JU9A	FALSE	Absolut vodka, lemon juice, blueberry purée and mint topped with club soda	Aquadome Market Bar	FALSE
+Cocktail	Mint Berry Delight	baxOR0JU9A	FALSE	Absolut vodka, lemon juice, blueberry purée and mint topped with club soda	The Overlook Bar	FALSE
+Cocktail	Mint Berry Delight	baxOR0JU9A	FALSE	Absolut vodka, lemon juice, blueberry purée and mint topped with club soda	Trellis Bar	FALSE
+Sparkling Wine	Moët & Chandon Brut	HRvjXqW0ju	TRUE	Chandon	Bubbles	TRUE
+Sparkling Wine	Moët & Chandon Brut Rosé	ZzVhWLpFYO	TRUE	Chandon	Bubbles	TRUE
+Bottles	Moët & Chandon Ice Imperial	7KuE5GnOcc	TRUE	Champagne	The Hideaway Bar	TRUE
+Bottles	Moët & Chandon Imperial Brut	kWOAvKClqu	TRUE	Champagne	The Hideaway Bar	TRUE
+Bottles	Moët & Chandon Imperial Rosé Brut	aQWsrdAsQB	TRUE	Champagne	The Hideaway Bar	TRUE
+Red Wine	Murphy-Goode, Cabernet Sauvignon	YAGMtwbLTX	FALSE	California, USA	1400 Lobby Bar	FALSE
+Red Wine	Murphy-Goode, Cabernet Sauvignon	YAGMtwbLTX	FALSE	California, USA	Dueling Pianos	FALSE
+Rum	Myers’s Original Dark	xX3CtCuqY1	FALSE	—	Music Hall	FALSE
+Rum	Myers’s Original Dark	xX3CtCuqY1	FALSE	—	The Overlook Bar	FALSE
+Beer	Negra Modelo	iy0PK4srk5	FALSE	Vienna lager 5.4% ABV	Playmakers Sports Bar	TRUE
+Beer	New Belgium Voodoo Ranger Juicy Haze IPA	e4GFqnRTCO	FALSE	USA, Hazy IPA 7.5% ABV	Playmakers Sports Bar	FALSE
+Beer	New Belgium Voodoo Ranger Juicy Haze IPA	e4GFqnRTCO	FALSE	USA, Hazy IPA 7.5% ABV	Point and Feather Pub	FALSE
+Beer	Newcastle Brown Ale	VJ2Wnq7PPT	FALSE	English brown ale 4.7% ABV	Playmakers Sports Bar	FALSE
+Beer	Newcastle Brown Ale	VJ2Wnq7PPT	FALSE	English brown ale 4.7% ABV	Point and Feather Pub	FALSE
+Zero Proof	O’Doul’s 0.0	RL1aFImxHG	FALSE	Non-alcoholic	Dueling Pianos	FALSE
+Zero Proof	O’Doul’s 0.0	RL1aFImxHG	FALSE	Non-alcoholic	Music Hall	FALSE
+Zero Proof	Ocean Potion Lemonade	kaD2QGWPxi	FALSE	Butterfly pea tea, passion fruit, coconut, banana and ginger syrups, pineapple juice, nutmeg and house-made lemonade	The Lemon Post Bar	TRUE
+Cocktail	Oh Mai Gawd	zoxPNHculQ	FALSE	Bacardi Reserva Ocho rum, Angostura 5 Yr rum, Bitter Bianco liqueur, passion fruit and guava syrup, pineapple, lime and orange juices and Domaine Chandon	The Hideaway Bar	TRUE
+Soft Mixer	Orange Juice	UVh5n8zSQC	FALSE	—	Aquadome Market Bar	FALSE
+Soft Mixer	Orange Juice	UVh5n8zSQC	FALSE	—	The Overlook Bar	FALSE
+Soft Mixer	Orange Juice	UVh5n8zSQC	FALSE	—	Trellis Bar	FALSE
+Cocktail	Palm Breeze	5YGbo4azsp	FALSE	Ketel One Botanical Peach & Orange Blossom vodka, passion fruit and guava syrup, pineapple juice, lime juice and Domaine Chandon	The Hideaway Bar	TRUE
+Cocktail	Paloma	3wjtvcPjBt	FALSE	Patrón Silver tequila and lime juice topped with Q sparkling grapefruit	Boleros	TRUE
+Cocktail	Papa Jac	Inp0nAJiwU	FALSE	Bacardi Superior rum, passion fruit syrup and lime juice	Aquadome Market Bar	FALSE
+Cocktail	Papa Jac	Inp0nAJiwU	FALSE	Bacardi Superior rum, passion fruit syrup and lime juice	The Lime and Coconut Bars	FALSE
+Cocktail	Papa Jac	Inp0nAJiwU	FALSE	Bacardi Superior rum, passion fruit syrup and lime juice	The Overlook Bar	FALSE
+Cocktail	Papa Jac	Inp0nAJiwU	FALSE	Bacardi Superior rum, passion fruit syrup and lime juice	Trellis Bar	FALSE
+Cocktail	Parrot Punch	7YxKspyvKA	FALSE	Captain Morgan Spiced rum, Campari, pineapple juice, lemon juice and simple syrup	Schooner Bar	FALSE
+Cocktail	Parrot Punch	7YxKspyvKA	FALSE	Captain Morgan Spiced rum, Campari, pineapple juice, lemon juice and simple syrup	Schooner Bar	FALSE
+Beer	Passion Fruite Orange Guava IPA	vfG7zb13Sm	FALSE	American IPA 6.5% ABV	Cantina Fresca	TRUE
+Cocktail	Passion Spritz	O3nf9RA6fN	FALSE	Aperol, vodka, passion fruit syrup, lemon juice and sparkling wine	Aquadome Market Bar	FALSE
+Cocktail	Passion Spritz	O3nf9RA6fN	FALSE	Aperol, vodka, passion fruit syrup, lemon juice and sparkling wine	The Lime and Coconut Bars	FALSE
+Cocktail	Passion Spritz	O3nf9RA6fN	FALSE	Aperol, vodka, passion fruit syrup, lemon juice and sparkling wine	The Overlook Bar	FALSE
+Cocktail	Passion Spritz	O3nf9RA6fN	FALSE	Aperol, vodka, passion fruit syrup, lemon juice and sparkling wine	Trellis Bar	FALSE
+Zero Proof	Passion Starlight	hSn51HAmO8	FALSE	Lemon juice, pineapple juice, lemonade, passion fruit syrup and mint	1400 Lobby Bar	FALSE
+Zero Proof	Passion Starlight	hSn51HAmO8	FALSE	Lemon juice, pineapple juice, lemonade, passion fruit syrup and mint	Boleros	FALSE
+Zero Proof	Passion Starlight	hSn51HAmO8	FALSE	Lemon juice, pineapple juice, lemonade, passion fruit syrup and mint	Point and Feather Pub	FALSE
+Tequila & Mezcal	Patrón Añejo	C6XJ0W9AAR	FALSE	—	Aquadome Market Bar	FALSE
+Tequila & Mezcal	Patrón Añejo	C6XJ0W9AAR	FALSE	—	Music Hall	FALSE
+Tequila & Mezcal	Patrón Añejo	C6XJ0W9AAR	FALSE	—	The Overlook Bar	FALSE
+Tequila & Mezcal	Patrón Añejo	C6XJ0W9AAR	FALSE	—	Trellis Bar	FALSE
+Tequila & Mezcal	Patrón Reposado	9BE8Ys5xH0	FALSE	—	Aquadome Market Bar	FALSE
+Tequila & Mezcal	Patrón Reposado	9BE8Ys5xH0	FALSE	—	Music Hall	FALSE
+Tequila & Mezcal	Patrón Reposado	9BE8Ys5xH0	FALSE	—	The Overlook Bar	FALSE
+Tequila & Mezcal	Patrón Reposado	9BE8Ys5xH0	FALSE	—	Trellis Bar	FALSE
+Tequila & Mezcal	Patrón Silver	GB0eA8R2Nm	FALSE	—	Aquadome Market Bar	FALSE
+Tequila & Mezcal	Patrón Silver	GB0eA8R2Nm	FALSE	—	Music Hall	FALSE
+Tequila & Mezcal	Patrón Silver	GB0eA8R2Nm	FALSE	—	The Overlook Bar	FALSE
+Tequila & Mezcal	Patrón Silver	GB0eA8R2Nm	FALSE	—	Trellis Bar	FALSE
+Beer	Paulaner Salvator Double Bock	RLSHiAhKaL	FALSE	Germany, doppelbock	Point and Feather Pub	TRUE
+Beer	Paulaner Weiss	CDZ7qmnTKE	FALSE	—	Aquadome Market Bar	FALSE
+Beer	Paulaner Weiss	CDZ7qmnTKE	FALSE	—	Music Hall	FALSE
+Beer	Paulaner Weiss	CDZ7qmnTKE	FALSE	—	Schooner Bar	FALSE
+Beer	Paulaner Weiss	CDZ7qmnTKE	FALSE	—	The Overlook Bar	FALSE
+Beer	Paulaner Weiss	CDZ7qmnTKE	FALSE	—	Trellis Bar	FALSE
+Beer	Paulaner Weiss	CDZ7qmnTKE	FALSE	—	Dueling Pianos	FALSE
+Cocktail	Peachy Passion	XLyiqmAhiF	FALSE	Ketel One Botanical Peach & Orange Blossom vodka, Aperol, banana purée and house-made lemonade	The Lemon Post Bar	TRUE
+Cocktail	Peanut Butter Tropic	pjGbMp1lWy	FALSE	Skrewball Peanut Butter whiskey, pineapple juice, bitters and lemon juice	Schooner Bar	FALSE
+Cocktail	Peanut Butter Tropic	pjGbMp1lWy	FALSE	Skrewball Peanut Butter whiskey, pineapple juice, bitters and lemon juice	Schooner Bar	FALSE
+White Wine	Penfolds Chardonnay “Koonunga Hill”	4vWGai4cb4	FALSE	South Australia	Schooner Bar	FALSE
+White Wine	Penfolds Chardonnay “Koonunga Hill”	4vWGai4cb4	FALSE	South Australia	The Overlook Bar	FALSE
+White Wine	Penfolds Chardonnay “Koonunga Hill”	4vWGai4cb4	FALSE	South Australia	Trellis Bar	FALSE
+White Wine	Penfolds Chardonnay “Koonunga Hill”	4vWGai4cb4	FALSE	South Australia	Dueling Pianos	FALSE
+White Wine	Penfolds Chardonnay “Koonunga Hill”	4vWGai4cb4	FALSE	South Australia	Music Hall	FALSE
+White Wine	Penfolds Chardonnay “Koonunga Hill”	4vWGai4cb4	FALSE	South Australia	Aquadome Market Bar	FALSE
+Apéritif	Pernod	yalw8NgDuX	FALSE	—	Aquadome Market Bar	FALSE
+Apéritif	Pernod	yalw8NgDuX	FALSE	—	The Overlook Bar	FALSE
+Apéritif	Pernod	yalw8NgDuX	FALSE	—	Trellis Bar	FALSE
+Beer	Peroni Nastro Azzurro	RpFpULQqX8	FALSE	European pale lager 5.1% ABV	Playmakers Sports Bar	TRUE
+Beer	Pilsner Urquell	9aMYd2W4JE	FALSE	Czech Republic, pilsner	Point and Feather Pub	TRUE
+Apéritif	Pimm’s	nOqoHoWFf0	FALSE	—	Aquadome Market Bar	FALSE
+Apéritif	Pimm’s	nOqoHoWFf0	FALSE	—	The Overlook Bar	FALSE
+Apéritif	Pimm’s	nOqoHoWFf0	FALSE	—	Trellis Bar	FALSE
+Cocktail	Pimm’s Cup	AFpZEYXBm4	FALSE	Pimm’s No.1 liqueur, lemon juice and ginger ale	Point and Feather Pub	TRUE
+Soft Mixer	Pineapple Agua Fresca	TSA7rTMn4l	FALSE	—	Cantina Fresca	TRUE
+Cocktail	Pineapple Guava Sangria	AYZvCrly2W	FALSE	Danzante Pinot Grigio, guava and passion fruit syrups, pineapple juice and lime juice	Aquadome Market Bar	FALSE
+Cocktail	Pineapple Guava Sangria	AYZvCrly2W	FALSE	Danzante Pinot Grigio, guava and passion fruit syrups, pineapple juice and lime juice	Playmakers Sports Bar	FALSE
+Cocktail	Pineapple Guava Sangria	AYZvCrly2W	FALSE	Danzante Pinot Grigio, guava and passion fruit syrups, pineapple juice and lime juice	The Lime and Coconut Bars	FALSE
+Cocktail	Pineapple Guava Sangria	AYZvCrly2W	FALSE	Danzante Pinot Grigio, guava and passion fruit syrups, pineapple juice and lime juice	The Overlook Bar	FALSE
+Cocktail	Pineapple Guava Sangria	AYZvCrly2W	FALSE	Danzante Pinot Grigio, guava and passion fruit syrups, pineapple juice and lime juice	Trellis Bar	FALSE
+Cocktail	Pineapple Jalapeño Margarita	YkcT5Gsg46	FALSE	Jose Cuervo Gold tequila, sour mix, pineapple juice and muddled jalapeños and pineapple	Cantina Fresca	TRUE
+Soft Mixer	Pineapple Juice	fVIVjw5jQP	FALSE	—	Aquadome Market Bar	FALSE
+Soft Mixer	Pineapple Juice	fVIVjw5jQP	FALSE	—	The Overlook Bar	FALSE
+Soft Mixer	Pineapple Juice	fVIVjw5jQP	FALSE	—	Trellis Bar	FALSE
+Zero Proof	Pink Mermaid	N85YC8JTgY	FALSE	Dragon fruit syrup, Lifesaver gummies and house-made lemonade	The Lemon Post Bar	TRUE
+Zero Proof	Pink Mermaid Cherry Lifesaver	MiIymZtkh8	FALSE	Cherry syrup, cherries and house-made lemonade	The Lemon Post Bar	TRUE
+Cocktail	Pink Pony	UehzOnrhVY	FALSE	Absolut Citron vodka, St-Germain Elderflower liqueur, Aperol, grapefruit juice and lemon sour	1400 Lobby Bar	TRUE
+White Wine	Pinot Grigio	edAO9rOChP	FALSE	Danzante, Delle Venezie, Italy	Cantina Fresca	FALSE
+White Wine	Pinot Grigio	edAO9rOChP	FALSE	Danzante, Delle Venezie, Italy	Playmakers Sports Bar	FALSE
+White Wine	Pinot Grigio	edAO9rOChP	FALSE	Danzante, Delle Venezie, Italy	The Lime and Coconut Bars	FALSE
+Red Wine	Pinot Noir	4rnPAn2prt	FALSE	Estancia, Monterey County, California, USA	Playmakers Sports Bar	TRUE
+Cocktail	Pirate in a Coconut Tree	MzcmKdyH4c	FALSE	Hard Truth Toasted Coconut rum, Captain Morgan Original Spiced rum, coconut water, lemon, blueberries and elderflower tonic	Point and Feather Pub	FALSE
+Cocktail	Pirate in a Coconut Tree	MzcmKdyH4c	FALSE	Hard Truth Toasted Coconut rum, Captain Morgan Original Spiced rum, coconut water, lemon, blueberries and elderflower tonic	Swim n Tonic	FALSE
+Cocktail	Planter’s Punch	vIakhWpByV	FALSE	Myers’s Original Dark rum, pineapple juice, orange juice, lime juice and grenadine	Aquadome Market Bar	FALSE
+Cocktail	Planter’s Punch	vIakhWpByV	FALSE	Myers’s Original Dark rum, pineapple juice, orange juice, lime juice and grenadine	The Lime and Coconut Bars	FALSE
+Cocktail	Planter’s Punch	vIakhWpByV	FALSE	Myers’s Original Dark rum, pineapple juice, orange juice, lime juice and grenadine	The Overlook Bar	FALSE
+Cocktail	Planter’s Punch	vIakhWpByV	FALSE	Myers’s Original Dark rum, pineapple juice, orange juice, lime juice and grenadine	Trellis Bar	FALSE
+Cocktail	Playmakers Bloody Mary	okLsXE6RsW	FALSE	Tito’s Handmade vodka, Bloody Mary mix, limes, olives and fresh celery	Playmakers Sports Bar	TRUE
+Cocktail	Pretty n Pink	3InHipKILL	FALSE	Beefeater Pink gin, lime juice, pineapple juice and guava syrup	Aquadome Market Bar	FALSE
+Cocktail	Pretty n Pink	3InHipKILL	FALSE	Beefeater Pink gin, lime juice, pineapple juice and guava syrup	Point and Feather Pub	FALSE
+Cocktail	Pretty n Pink	3InHipKILL	FALSE	Beefeater Pink gin, lime juice, pineapple juice and guava syrup	The Overlook Bar	FALSE
+Cocktail	Pretty n Pink	3InHipKILL	FALSE	Beefeater Pink gin, lime juice, pineapple juice and guava syrup	Trellis Bar	FALSE
+Sparkling Wine	Prosecco	RzXHyvod7A	FALSE	Ruffino, Veneto, Italy	Cantina Fresca	FALSE
+Sparkling Wine	Prosecco	RzXHyvod7A	FALSE	Ruffino, Veneto, Italy	Playmakers Sports Bar	FALSE
+Sparkling Wine	Prosecco	RzXHyvod7A	FALSE	Ruffino, Veneto, Italy	The Lime and Coconut Bars	FALSE
+Red Wine	Psagot Cabernet Sauvignon	rXA4o01eBv	FALSE	Kosher	Music Hall	TRUE
+White Wine	Psagot Chardonnay	QBaT9g4xMB	FALSE	Kosher	Music Hall	TRUE
+Red Wine	Psagot Sinai	RBXRVxBXhY	FALSE	Kosher	Music Hall	TRUE
+Cocktail	Purple Tide	GAkcxX1gjs	FALSE	Beefeater London Dry gin, lemon juice, butterfly pea tea, simple syrup and tonic	Swim n Tonic	TRUE
+Rum	Pusser’s Navy	2v2qi0LoWM	FALSE	—	The Overlook Bar	TRUE
+Rum	Pyrat XO Reserve	qt454FbtqE	FALSE	—	The Overlook Bar	FALSE
+Rum	Pyrat XO Reserve	qt454FbtqE	FALSE	—	Music Hall	FALSE
+Cocktail	Raspberry Beret	J5dEnFalVH	FALSE	Light rum, vodka, gin, tequila blanco, sweet & sour and Sprite topped with a float of raspberry liqueur	Dueling Pianos	FALSE
+Cocktail	Raspberry Beret	J5dEnFalVH	FALSE	Light rum, vodka, gin, tequila blanco, sweet & sour and Sprite topped with a float of raspberry liqueur	Music Hall	FALSE
+Cocktail	Raspberry Beret	J5dEnFalVH	FALSE	Light rum, vodka, gin, tequila blanco, sweet & sour and Sprite topped with a float of raspberry liqueur	Spotlight Karaoke	FALSE
+Red Wine	Recanati Yasmin Red	4HjnlPTkVL	FALSE	—	Music Hall	TRUE
+White Wine	Recanati Yasmin White	Yg7xqbaYQo	FALSE	—	Music Hall	TRUE
+Soft Mixer	Red Bull Energy Drink	A5C7FNjM55	FALSE	Regular, sugar-free or Yellow Edition (tropical)	Aquadome Market Bar	FALSE
+Soft Mixer	Red Bull Energy Drink	A5C7FNjM55	FALSE	Regular, sugar-free or Yellow Edition (tropical)	The Overlook Bar	FALSE
+Soft Mixer	Red Bull Energy Drink	A5C7FNjM55	FALSE	Regular, sugar-free or Yellow Edition (tropical)	Trellis Bar	FALSE
+Beer	Red Stripe	nLFtT6u5UV	FALSE	Jamaican pale lager 4.7% ABV	Aquadome Market Bar	FALSE
+Beer	Red Stripe	nLFtT6u5UV	FALSE	Jamaican pale lager 4.7% ABV	Point and Feather Pub	FALSE
+Beer	Red Stripe	nLFtT6u5UV	FALSE	Jamaican pale lager 4.7% ABV	Schooner Bar	FALSE
+Beer	Red Stripe	nLFtT6u5UV	FALSE	Jamaican pale lager 4.7% ABV	The Overlook Bar	FALSE
+Beer	Red Stripe	nLFtT6u5UV	FALSE	Jamaican pale lager 4.7% ABV	Trellis Bar	FALSE
+Beer	Red Stripe	nLFtT6u5UV	FALSE	Jamaican pale lager 4.7% ABV	Dueling Pianos	FALSE
+Beer	Red Stripe	nLFtT6u5UV	FALSE	Jamaican pale lager 4.7% ABV	Music Hall	FALSE
+Beer	Red Stripe	nLFtT6u5UV	FALSE	Jamaican pale lager 4.7% ABV	Playmakers Sports Bar	FALSE
+Beer	Red Stripe	nLFtT6u5UV	FALSE	Jamaican pale lager 4.7% ABV	Cantina Fresca	FALSE
+Beer	Red Stripe	nLFtT6u5UV	FALSE	Jamaican pale lager 4.7% ABV	The Lime and Coconut Bars	FALSE
+Cognac	Rémy Martin V.S.O.P.	yOhapdhAf8	FALSE	—	Aquadome Market Bar	FALSE
+Cognac	Rémy Martin V.S.O.P.	yOhapdhAf8	FALSE	—	The Overlook Bar	FALSE
+Cognac	Rémy Martin V.S.O.P.	yOhapdhAf8	FALSE	—	Trellis Bar	FALSE
+Cognac	Rémy Martin V.S.O.P.	yOhapdhAf8	FALSE	—	Music Hall	FALSE
+Cocktail	Rising Tides	4FNnf5tPOH	FALSE	Bombay Sapphire gin, Lillet Blanc, Cointreau, absinthe and lemon sour	1400 Lobby Bar	TRUE
+Whiskey & Bourbon	Rittenhouse Rye	sWAgrZXnsc	FALSE	—	Aquadome Market Bar	FALSE
+Whiskey & Bourbon	Rittenhouse Rye	sWAgrZXnsc	FALSE	—	The Overlook Bar	FALSE
+Whiskey & Bourbon	Rittenhouse Rye	sWAgrZXnsc	FALSE	—	Trellis Bar	FALSE
+White Wine	Robert Mondavi Chardonnay Private Selection	rLfAlUne94	FALSE	California, USA	Schooner Bar	FALSE
+Red Wine	Robert Mondavi Merlot Private Selection	4gc6P4k5O7	FALSE	California, USA	Schooner Bar	FALSE
+White Wine	Robert Mondavi Chardonnay Private Selection	rLfAlUne94	FALSE	California, USA	The Overlook Bar	FALSE
+White Wine	Robert Mondavi Chardonnay Private Selection	rLfAlUne94	FALSE	California, USA	Trellis Bar	FALSE
+Red Wine	Robert Mondavi Merlot Private Selection	4gc6P4k5O7	FALSE	California, USA	The Overlook Bar	FALSE
+Red Wine	Robert Mondavi Merlot Private Selection	4gc6P4k5O7	FALSE	California, USA	Trellis Bar	FALSE
+White Wine	Robert Mondavi Private Selection Sauvignon Blanc	7cyd9oj5RJ	FALSE	California, USA	The Overlook Bar	FALSE
+White Wine	Robert Mondavi Private Selection Sauvignon Blanc	7cyd9oj5RJ	FALSE	California, USA	Trellis Bar	FALSE
+White Wine	Robert Mondavi Sauvignon Blanc Private Reserve	kDTzhrK4nY	FALSE	California, USA	Schooner Bar	FALSE
+White Wine	Robert Mondavi Chardonnay Private Selection	rLfAlUne94	FALSE	California, USA	Music Hall	FALSE
+Red Wine	Robert Mondavi Merlot Private Selection	4gc6P4k5O7	FALSE	California, USA	Music Hall	FALSE
+White Wine	Robert Mondavi Chardonnay Private Selection	rLfAlUne94	FALSE	California, USA	Aquadome Market Bar	FALSE
+Red Wine	Robert Mondavi Merlot Private Selection	4gc6P4k5O7	FALSE	California, USA	Aquadome Market Bar	FALSE
+White Wine	Robert Mondavi Sauvignon Blanc Private Reserve	kDTzhrK4nY	FALSE	California, USA	Aquadome Market Bar	FALSE
+White Wine	Robert Mondavi Sauvignon Blanc Private Reserve	kDTzhrK4nY	FALSE	California, USA	Music Hall	FALSE
+Cocktail	Roll & Rye	6pnNqym3qT	FALSE	Bulleit Rye whiskey, Aperol, lemon juice and simple syrup	Aquadome Market Bar	FALSE
+Cocktail	Roll & Rye	6pnNqym3qT	FALSE	Templeton Rye whiskey, simple syrup, Aperol and lemon juice	Schooner Bar	FALSE
+Cocktail	Roll & Rye	6pnNqym3qT	FALSE	Templeton Rye whiskey, simple syrup, Aperol and lemon juice	Schooner Bar	FALSE
+Cocktail	Roll & Rye	6pnNqym3qT	FALSE	Bulleit Rye whiskey, Aperol, lemon juice and simple syrup	The Overlook Bar	FALSE
+Cocktail	Roll & Rye	6pnNqym3qT	FALSE	Bulleit Rye whiskey, Aperol, lemon juice and simple syrup	Trellis Bar	FALSE
+Rum	Ron Zacapa	dXybq1Xbkt	FALSE	—	The Overlook Bar	TRUE
+Sparkling Wine	Ruffino Prosecco	A7cRyx6XZW	FALSE	Veneto, Italy	Schooner Bar	FALSE
+Sparkling Wine	Ruffino Prosecco	A7cRyx6XZW	FALSE	Veneto, Italy	The Overlook Bar	FALSE
+Sparkling Wine	Ruffino Prosecco	A7cRyx6XZW	FALSE	Veneto, Italy	Trellis Bar	FALSE
+Sparkling Wine	Ruffino Prosecco	A7cRyx6XZW	FALSE	Veneto, Italy	Aquadome Market Bar	FALSE
+Sparkling Wine	Ruffino Prosecco	A7cRyx6XZW	FALSE	Veneto, Italy	Music Hall	FALSE
+Cocktail	Rum Old Fashioned	kpAN7pAhiU	FALSE	Bacardi Reserva Ocho rum, coconut syrup and Angostura bitters	Aquadome Market Bar	FALSE
+Cocktail	Rum Old Fashioned	kpAN7pAhiU	FALSE	Bacardi Reserva Ocho rum, coconut syrup and Angostura bitters	Schooner Bar	FALSE
+Cocktail	Rum Old Fashioned	kpAN7pAhiU	FALSE	Bacardi Reserva Ocho rum, coconut syrup and Angostura bitters	Schooner Bar	FALSE
+Cocktail	Rum Old Fashioned	kpAN7pAhiU	FALSE	Bacardi Reserva Ocho rum, coconut syrup and Angostura bitters	The Overlook Bar	FALSE
+Cocktail	Rum Old Fashioned	kpAN7pAhiU	FALSE	Bacardi Reserva Ocho rum, coconut syrup and Angostura bitters	Trellis Bar	FALSE
+Cocktail	Rum Punch	AonkxWcVfi	FALSE	Captain Morgan Original Spiced rum, Bacardi Superior rum, guava and passion fruit syrups, pineapple juice, lime juice and a float of Kraken Black Spiced rum	Aquadome Market Bar	FALSE
+Cocktail	Rum Punch	AonkxWcVfi	FALSE	Captain Morgan Original Spiced rum, Bacardi Superior rum, guava and passion fruit syrups, pineapple juice, lime juice and a float of Kraken Black Spiced rum	The Lime and Coconut Bars	FALSE
+Cocktail	Rum Punch	AonkxWcVfi	FALSE	Captain Morgan Original Spiced rum, Bacardi Superior rum, guava and passion fruit syrups, pineapple juice, lime juice and a float of Kraken Black Spiced rum	The Overlook Bar	FALSE
+Cocktail	Rum Punch	AonkxWcVfi	FALSE	Captain Morgan Original Spiced rum, Bacardi Superior rum, guava and passion fruit syrups, pineapple juice, lime juice and a float of Kraken Black Spiced rum	Trellis Bar	FALSE
+Cocktail	Sailor’s Delight	GalEAHAhfr	FALSE	Ketel One Botanical Cucumber & Mint vodka, fresh blueberries, blueberry purée, coconut syrup, orgeat, coconut water, lemon juice, butterfly pea tea and house-made lemonade	The Lemon Post Bar	TRUE
+Cocktail	Samba Azul	2Amo8yViT7	FALSE	Atlântico Planta rum, St-Germain Elderflower liqueur, blue curaçao, lemon juice and ginger beer	Boleros	TRUE
+Liqueurs	Sambuca	zDh4mrNEl3	FALSE	—	Aquadome Market Bar	FALSE
+Liqueurs	Sambuca	zDh4mrNEl3	FALSE	—	The Overlook Bar	FALSE
+Liqueurs	Sambuca	zDh4mrNEl3	FALSE	—	Trellis Bar	FALSE
+Beer	Samuel Adams Boston Lager	KAIhKwQcgm	FALSE	USA Lager 5.0% ABV	Playmakers Sports Bar	FALSE
+Beer	Samuel Adams Boston Lager	KAIhKwQcgm	FALSE	USA Lager 5.0% ABV	Point and Feather Pub	FALSE
+Sparkling Wine	Santa Elvira Prosecco	vgrfAs0YPf	FALSE	Veneto, Italy	Bubbles	FALSE
+Sparkling Wine	Santa Elvira Prosecco	vgrfAs0YPf	FALSE	Veneto, Italy	Dueling Pianos	FALSE
+Sparkling Wine	Santa Elvira Prosecco	vgrfAs0YPf	FALSE	Veneto, Italy	1400 Lobby Bar	FALSE
+White Wine	Sauvignon Blanc	K3VkJOF0on	FALSE	Kim Crawford, Marlborough, New Zealand	Playmakers Sports Bar	TRUE
+Cocktail	Scarlett’s Tropical Sangria	OW3nlkJsvK	FALSE	Castle Rock Pinot Noir, guava and passion fruit syrups, pineapple juice and lime juice	Aquadome Market Bar	FALSE
+Cocktail	Scarlett’s Tropical Sangria	OW3nlkJsvK	FALSE	Castle Rock Pinot Noir, guava and passion fruit syrups, pineapple juice and lime juice	Cantina Fresca	FALSE
+Cocktail	Scarlett’s Tropical Sangria	OW3nlkJsvK	FALSE	Castle Rock Pinot Noir, guava and passion fruit syrups, pineapple juice and lime juice	The Overlook Bar	FALSE
+Cocktail	Scarlett’s Tropical Sangria	OW3nlkJsvK	FALSE	Castle Rock Pinot Noir, guava and passion fruit syrups, pineapple juice and lime juice	Trellis Bar	FALSE
+Cocktail	Sea & T	5vj9FPBLBB	FALSE	Beefeater London Dry gin, Lagoon Bay liqueur, simple syrup, lemon juice and tonic	Point and Feather Pub	FALSE
+Cocktail	Sea & T	5vj9FPBLBB	FALSE	Beefeater London Dry gin, Lagoon Bay liqueur, simple syrup, lemon juice and tonic	Schooner Bar	FALSE
+Whiskey & Bourbon	Seagram’s 7	0dhuwc8Zok	FALSE	—	Aquadome Market Bar	FALSE
+Whiskey & Bourbon	Seagram’s 7	0dhuwc8Zok	FALSE	—	The Overlook Bar	FALSE
+Whiskey & Bourbon	Seagram’s 7	0dhuwc8Zok	FALSE	—	Trellis Bar	FALSE
+Cocktail	Shade Thrower	fakYEZK4g0	FALSE	Bacardi Superior rum, mango and guava syrup, orange juice, pineapple juice and house-made lemonade	The Lemon Post Bar	TRUE
+Cocktail	Shandy	ARWYoiEgNw	FALSE	Lemon juice, simple syrup and Stella Artois pilsner beer	Point and Feather Pub	TRUE
+Zero Proof	Shirley Ginger	AWuFgoLiAJ	FALSE	Grenadine, orange juice, lime juice and ginger ale	Aquadome Market Bar	FALSE
+Zero Proof	Shirley Ginger	AWuFgoLiAJ	FALSE	Grenadine, orange juice, lime juice and ginger ale	Playmakers Sports Bar	FALSE
+Zero Proof	Shirley Ginger	AWuFgoLiAJ	FALSE	Grenadine, orange juice, lime juice and ginger ale	The Overlook Bar	FALSE
+Zero Proof	Shirley Ginger	AWuFgoLiAJ	FALSE	Grenadine, orange juice, lime juice and ginger ale	Trellis Bar	FALSE
+Beer	Sierra Nevada Pale Ale	2H3ZXNZrVj	FALSE	California Pale Ale 5.6% ABV	Playmakers Sports Bar	FALSE
+Beer	Sierra Nevada Pale Ale	2H3ZXNZrVj	FALSE	California Pale Ale 5.6% ABV	Point and Feather Pub	FALSE
+Cocktail	Slice of Life	16NMYTPdwO	FALSE	Patrón Silver tequila, hibiscus pineapple tea syrup, watermelon juice, Sprite and house-made lemonade	The Lemon Post Bar	TRUE
+Cocktail	Snap, Crackle, Pop!	mAuyxbAhKq	FALSE	Beefeater London Dry gin, lime juice, simple syrup, grenadine and pineapple juice with a Pop Rocks rim	Dueling Pianos	TRUE
+Beer	Sol	311GZHYxF8	FALSE	Mexican lager 4.6% ABV	Boleros	FALSE
+Beer	Sol	311GZHYxF8	FALSE	Mexican lager 4.6% ABV	Cantina Fresca	FALSE
+Beer	Sol	311GZHYxF8	FALSE	Mexican lager 4.6% ABV	Playmakers Sports Bar	FALSE
+Cocktail	Som’s Solo Sour	kcHNxOtBW9	FALSE	Jack Daniel’s Tennessee rye whiskey, lemon juice, Vint by Robert Mondavi Cabernet Sauvignon, simple syrup and aquafaba	Lou’s Jazz n Blues	TRUE
+Cocktail	Southern Belle	XL72T08dOP	FALSE	Buffalo Trace bourbon, blueberry purée, mint leaves, lemon juice and soda water	Schooner Bar	FALSE
+Cocktail	Southern Belle	XL72T08dOP	FALSE	Buffalo Trace bourbon, blueberry purée, mint leaves, lemon juice and soda water	Schooner Bar	FALSE
+Liqueurs	Southern Comfort	56nTazM8X2	FALSE	—	Aquadome Market Bar	FALSE
+Liqueurs	Southern Comfort	56nTazM8X2	FALSE	—	Music Hall	FALSE
+Liqueurs	Southern Comfort	56nTazM8X2	FALSE	—	The Overlook Bar	FALSE
+Liqueurs	Southern Comfort	56nTazM8X2	FALSE	—	Trellis Bar	FALSE
+Soft Mixer	Sparkling Grapefruit	uenZho8Vqq	FALSE	—	Point and Feather Pub	TRUE
+Soft Mixer	Sprite	trUstH0Sej	FALSE	—	Aquadome Market Bar	FALSE
+Soft Mixer	Sprite	trUstH0Sej	FALSE	—	The Overlook Bar	FALSE
+Soft Mixer	Sprite	trUstH0Sej	FALSE	—	Trellis Bar	FALSE
+Beer	Stella Artois	bjHOAErbuD	FALSE	Belgian pilsner 5.0% ABV	Aquadome Market Bar	FALSE
+Beer	Stella Artois	bjHOAErbuD	FALSE	Belgian pilsner 5.0% ABV	Boleros	FALSE
+Beer	Stella Artois	bjHOAErbuD	FALSE	Belgian pilsner 5.0% ABV	Music Hall	FALSE
+Beer	Stella Artois	bjHOAErbuD	FALSE	Belgian pilsner 5.0% ABV	Playmakers Sports Bar	FALSE
+Beer	Stella Artois	bjHOAErbuD	FALSE	Belgian pilsner 5.0% ABV	Point and Feather Pub	FALSE
+Beer	Stella Artois	bjHOAErbuD	FALSE	Belgian pilsner 5.0% ABV	Schooner Bar	FALSE
+Beer	Stella Artois	bjHOAErbuD	FALSE	Belgian pilsner 5.0% ABV	The Overlook Bar	FALSE
+Beer	Stella Artois	bjHOAErbuD	FALSE	Belgian pilsner 5.0% ABV	Trellis Bar	FALSE
+Vodka	Stoli Elit	KHhENAQbLx	FALSE	—	Music Hall	TRUE
+Beer	Stone IPA	3ViA9A4Q90	FALSE	California IPA 6.9% ABV	Playmakers Sports Bar	FALSE
+Beer	Stone IPA	3ViA9A4Q90	FALSE	California IPA 6.9% ABV	Point and Feather Pub	FALSE
+Cocktail	Stout Spresso Martini	sKXgDKOrxY	FALSE	Absolut vodka, cold brew coffee, Mr Black coffee liqueur, simple syrup and Guinness stout	Point and Feather Pub	TRUE
+Cocktail	Strawberry Blonde	qkoajQjGAB	FALSE	Tito’s Handmade vodka, St-Germain liqueur, strawberry, lemon juice and mint	Aquadome Market Bar	FALSE
+Cocktail	Strawberry Blonde	qkoajQjGAB	FALSE	Tito’s Handmade vodka, St-Germain liqueur, strawberry, lemon juice and mint	The Overlook Bar	FALSE
+Cocktail	Strawberry Blonde	qkoajQjGAB	FALSE	Tito’s Handmade vodka, St-Germain liqueur, strawberry, lemon juice and mint	Trellis Bar	FALSE
+Cocktail	Strawberry Fields	LYCr3dAKzK	FALSE	Light rum, Aperol, pineapple juice, lemon juice and strawberry purée	Dueling Pianos	FALSE
+Cocktail	Strawberry Fields	LYCr3dAKzK	FALSE	Light rum, Aperol, pineapple juice, lemon juice and strawberry purée	Music Hall	FALSE
+Cocktail	Strawberry Fields	LYCr3dAKzK	FALSE	Light rum, Aperol, pineapple juice, lemon juice and strawberry purée	Spotlight Karaoke	FALSE
+Zero Proof	Strawberry Limeaid	tm96KhOqYA	FALSE	Strawberry, lime juice and club soda	Lou’s Jazz n Blues	FALSE
+Zero Proof	Strawberry Limeaid	tm96KhOqYA	FALSE	Strawberry, lime juice and club soda	Aquadome Market Bar	FALSE
+Zero Proof	Strawberry Limeaid	tm96KhOqYA	FALSE	Strawberry, lime juice and club soda	The Overlook Bar	FALSE
+Zero Proof	Strawberry Limeaid	tm96KhOqYA	FALSE	Strawberry, lime juice and club soda	Trellis Bar	FALSE
+Cocktail	Strawberry Sunset	7RhfKLZQqg	FALSE	Beefeater Pink Strawberry gin, strawberry purée, lime and lemon juice, mint and elderflower tonic	Swim n Tonic	TRUE
+Cider	Strongbow Hard Cider	drsJmzDu3a	FALSE	English dry cider 5.0% ABV	Aquadome Market Bar	FALSE
+Cider	Strongbow Hard Cider	drsJmzDu3a	FALSE	English dry cider 5.0% ABV	Dueling Pianos	FALSE
+Cider	Strongbow Hard Cider	drsJmzDu3a	FALSE	English dry cider 5.0% ABV	Music Hall	FALSE
+Cider	Strongbow Hard Cider	drsJmzDu3a	FALSE	English dry cider 5.0% ABV	Playmakers Sports Bar	FALSE
+Cider	Strongbow Hard Cider	drsJmzDu3a	FALSE	English dry cider 5.0% ABV	Playmakers Sports Bar	FALSE
+Cider	Strongbow Hard Cider	drsJmzDu3a	FALSE	English dry cider 5.0% ABV	Point and Feather Pub	FALSE
+Cider	Strongbow Hard Cider	drsJmzDu3a	FALSE	English dry cider 5.0% ABV	Schooner Bar	FALSE
+Cider	Strongbow Hard Cider	drsJmzDu3a	FALSE	English dry cider 5.0% ABV	The Overlook Bar	FALSE
+Cider	Strongbow Hard Cider	drsJmzDu3a	FALSE	English dry cider 5.0% ABV	Trellis Bar	FALSE
+Cocktail	Sunset Spirits	2XIq9ZF2JK	FALSE	Patrón Silver tequila, Cointreau, desert pear and watermelon syrup, lime juice and prosecco	The Hideaway Bar	TRUE
+Cocktail	Swan Song	BUnuklpmWC	FALSE	Tito’s Handmade vodka, Aperol, guava syrup and lime juice	Lou’s Jazz n Blues	TRUE
+Gin	Tanqueray	lU3qHjZdNo	FALSE	—	Music Hall	FALSE
+Gin	Tanqueray	lU3qHjZdNo	FALSE	—	Point and Feather Pub	FALSE
+Gin	Tanqueray	lU3qHjZdNo	FALSE	—	The Overlook Bar	FALSE
+Whiskey & Bourbon	Templeton Rye	TABUG0CNiB	FALSE	—	Aquadome Market Bar	FALSE
+Whiskey & Bourbon	Templeton Rye	TABUG0CNiB	FALSE	—	The Overlook Bar	FALSE
+Whiskey & Bourbon	Templeton Rye	TABUG0CNiB	FALSE	—	Trellis Bar	FALSE
+Cocktail	Tennessee Bell	qMZ2cxtAUt	FALSE	Gin, peach schnapps, elderflower liqueur and lemon juice topped with grapefruit juice	Dueling Pianos	FALSE
+Cocktail	Tennessee Bell	qMZ2cxtAUt	FALSE	Gin, peach schnapps, elderflower liqueur and lemon juice topped with grapefruit juice	Music Hall	FALSE
+Cocktail	Tennessee Bell	qMZ2cxtAUt	FALSE	Gin, peach schnapps, elderflower liqueur and lemon juice topped with grapefruit juice	Spotlight Karaoke	FALSE
+Beer	Terrapin Hopsecutioner	VOe4M1AIts	FALSE	American IPA 7.3% ABV	Playmakers Sports Bar	TRUE
+Beer	Terrapin Luau Krunkles Passion Fruit Orange Guava IPA	wjDAtPAdem	FALSE	American IPA 6.5% ABV	Playmakers Sports Bar	FALSE
+Beer	Terrapin Luau Krunkles Passion Fruit Orange Guava IPA	wjDAtPAdem	FALSE	American IPA 6.5% ABV	Point and Feather Pub	FALSE
+Beer	Terrapin Luau Krunkles Passion Fruit Orange Guava IPA	wjDAtPAdem	FALSE	American IPA 6.5% ABV	The Lime and Coconut Bars	FALSE
+Red Wine	Terrazas de los Andes Malbec	gFAod0wgjC	FALSE	Mendoza, Argentina	Schooner Bar	FALSE
+Red Wine	Terrazas de los Andes Malbec	gFAod0wgjC	FALSE	Mendoza, Argentina	The Overlook Bar	FALSE
+Red Wine	Terrazas de los Andes Malbec	gFAod0wgjC	FALSE	Mendoza, Argentina	Trellis Bar	FALSE
+Red Wine	Terrazas de los Andes Malbec	gFAod0wgjC	FALSE	Mendoza, Argentina	1400 Lobby Bar	FALSE
+Red Wine	Terrazas de los Andes Malbec	gFAod0wgjC	FALSE	Mendoza, Argentina	Aquadome Market Bar	FALSE
+Red Wine	Terrazas de los Andes Malbec	gFAod0wgjC	FALSE	Mendoza, Argentina	Dueling Pianos	FALSE
+Red Wine	Terrazas de los Andes Malbec	gFAod0wgjC	FALSE	Mendoza, Argentina	Music Hall	FALSE
+Gin	The Botanist	rmjWfyVjE8	FALSE	—	Point and Feather Pub	FALSE
+Gin	The Botanist	rmjWfyVjE8	FALSE	—	The Overlook Bar	FALSE
+Cocktail	The Eagle	ldwb8XQ5zA	FALSE	Hennessy VS cognac, milk, vanilla and simple syrup with a sprinkle of nutmeg	1400 Lobby Bar	TRUE
+Cocktail	The Escape Raft	GEG1inWJmE	FALSE	Tito’s Handmade vodka, coconut water, lemon juice, coconut syrup, orgeat, fresh pineapple and house-made lemonade	The Lemon Post Bar	TRUE
+Cocktail	The First Song	iLZdcKlzVE	FALSE	Casamigos Silver tequila, Cointreau, watermelon juice and lemon sour	1400 Lobby Bar	TRUE
+Cocktail	The Flowrider	RjaUM3bOM8	FALSE	Jack Daniel’s Tennessee rye, Heering cherry liqueur, Lillet Blanc and Angostura orange bitters	1400 Lobby Bar	TRUE
+Cocktail	The Fourteen Hundred	A3gx8aEADJ	FALSE	Casamigos Blanco tequila, Italicus liqueur, pearl shimmer syrup and lemon sour with a citrus bubble	1400 Lobby Bar	TRUE
+Cocktail	The Gin Blossom	D9djDNXGWC	FALSE	Gin, elderflower liqueur, apple juice and a splash of club soda	Dueling Pianos	FALSE
+Cocktail	The Gin Blossom	D9djDNXGWC	FALSE	Gin, elderflower liqueur, apple juice and a splash of club soda	Music Hall	FALSE
+Cocktail	The Gin Blossom	D9djDNXGWC	FALSE	Gin, elderflower liqueur, apple juice and a splash of club soda	Spotlight Karaoke	FALSE
+Scotch	The Glenlivet	hRbEABmN63	FALSE	—	Aquadome Market Bar	FALSE
+Scotch	The Glenlivet	hRbEABmN63	FALSE	—	Music Hall	FALSE
+Scotch	The Glenlivet	hRbEABmN63	FALSE	—	The Overlook Bar	FALSE
+Scotch	The Glenlivet	hRbEABmN63	FALSE	—	Trellis Bar	FALSE
+Cocktail	The Painkiller	A1b5mtUIBh	FALSE	Pusser’s Navy rum, pineapple juice, orange juice, coconut syrup and a dash of nutmeg	The Lime and Coconut Bars	FALSE
+Cocktail	The Painkiller	A1b5mtUIBh	FALSE	Pusser’s Navy rum, pineapple juice, orange juice, coconut syrup and a dash of nutmeg	Aquadome Market Bar	FALSE
+Cocktail	The Painkiller	A1b5mtUIBh	FALSE	Pusser’s Navy rum, pineapple juice, orange juice, coconut syrup and a dash of nutmeg	Boleros	FALSE
+Cocktail	The Painkiller	A1b5mtUIBh	FALSE	Pusser’s Navy rum, pineapple juice, orange juice, coconut syrup and a dash of nutmeg	The Overlook Bar	FALSE
+Cocktail	The Painkiller	A1b5mtUIBh	FALSE	Pusser’s Navy rum, pineapple juice, orange juice, coconut syrup and a dash of nutmeg	Trellis Bar	FALSE
+Cocktail	The Pitch	rbzDC3YW13	FALSE	Vodka, rum, gin, Midori, sour mix and Sprite	Playmakers Sports Bar	TRUE
+Cocktail	The Shark Attack	jSDXszXhO6	FALSE	Hendrick’s gin, passion fruit, coconut, banana and ginger syrups, pineapple juice, nutmeg, butterfly pea tea and house-made lemonade	The Lemon Post Bar	TRUE
+Cocktail	Thyme for Gin	yAn5vwmg1M	FALSE	Aviation gin, lemon juice, simple syrup and thyme topped with club soda	Aquadome Market Bar	FALSE
+Cocktail	Thyme for Gin	yAn5vwmg1M	FALSE	Aviation gin, lemon juice, simple syrup and thyme topped with club soda	Point and Feather Pub	FALSE
+Cocktail	Thyme for Gin	yAn5vwmg1M	FALSE	Aviation gin, lemon juice, simple syrup and thyme topped with club soda	The Overlook Bar	FALSE
+Cocktail	Thyme for Gin	yAn5vwmg1M	FALSE	Aviation gin, lemon juice, simple syrup and thyme topped with club soda	Trellis Bar	FALSE
+Beer	Tiger	3Wl6qMzlyB	FALSE	Singaporean golden lager 5% ABV	Playmakers Sports Bar	TRUE
+Zero Proof	Tiger’s Tale	9ATt4GyO8h	FALSE	Lemon juice, coconut syrup, watermelon syrup, club soda, mint, strawberry and watermelon	1400 Lobby Bar	FALSE
+Zero Proof	Tiger’s Tale	9ATt4GyO8h	FALSE	Lemon juice, coconut syrup, watermelon syrup, club soda, mint, strawberry and watermelon	Dueling Pianos	FALSE
+Zero Proof	Tiger’s Tale	9ATt4GyO8h	FALSE	Lemon juice, coconut syrup, watermelon syrup, club soda, mint, strawberry and watermelon	Spotlight Karaoke	FALSE
+Vodka	Tito’s Handmade	cpBhfundlD	FALSE	—	Music Hall	TRUE
+Cocktail	Toasted Marshmallow Old Fashioned	sd2fxYA9aj	FALSE	Buffalo Trace bourbon, toasted marshmallow syrup and cocoa bitters, served with torched marshmallows	Schooner Bar	FALSE
+Cocktail	Toasted Marshmallow Old Fashioned	sd2fxYA9aj	FALSE	Buffalo Trace bourbon, toasted marshmallow syrup and cocoa bitters, served with torched marshmallows	Schooner Bar	FALSE
+Soft Mixer	Tonic	pZmBody4AO	FALSE	—	Aquadome Market Bar	FALSE
+Soft Mixer	Tonic	pZmBody4AO	FALSE	—	Point and Feather Pub	FALSE
+Soft Mixer	Tonic	pZmBody4AO	FALSE	—	The Overlook Bar	FALSE
+Soft Mixer	Tonic	pZmBody4AO	FALSE	—	Trellis Bar	FALSE
+Soft Mixer	Tonic Light	hGOGuvhMAI	FALSE	—	Point and Feather Pub	TRUE
+Red Wine	Torres Ribera del Duero “Celeste” Crianza	5bvjI7X9uk	FALSE	Castilla y León, Spain	Schooner Bar	FALSE
+Red Wine	Torres Ribera del Duero “Celeste” Crianza	5bvjI7X9uk	FALSE	Castilla y León, Spain	The Overlook Bar	FALSE
+Red Wine	Torres Ribera del Duero “Celeste” Crianza	5bvjI7X9uk	FALSE	Castilla y León, Spain	Trellis Bar	FALSE
+Red Wine	Torres Ribera del Duero “Celeste” Crianza	5bvjI7X9uk	FALSE	Castilla y León, Spain	Dueling Pianos	FALSE
+Red Wine	Torres Ribera del Duero “Celeste” Crianza	5bvjI7X9uk	FALSE	Castilla y León, Spain	Music Hall	FALSE
+Red Wine	Torres Ribera del Duero “Celeste” Crianza	5bvjI7X9uk	FALSE	Castilla y León, Spain	Aquadome Market Bar	FALSE
+Cocktail	Tribute	iUs75PE2NQ	FALSE	Coconut rum and raspberry liqueur topped with pineapple juice and a splash of club soda	Dueling Pianos	FALSE
+Cocktail	Tribute	iUs75PE2NQ	FALSE	Coconut rum and raspberry liqueur topped with pineapple juice and a splash of club soda	Music Hall	FALSE
+Cocktail	Tribute	iUs75PE2NQ	FALSE	Coconut rum and raspberry liqueur topped with pineapple juice and a splash of club soda	Spotlight Karaoke	FALSE
+Zero Proof	Tropic Blast Lemonade	YpmznCXNZP	FALSE	Orange juice, pineapple juice, mango and guava syrup and house-made lemonade	The Lemon Post Bar	TRUE
+Cocktail	Tropic Rye	8PxGAPVNaZ	FALSE	Jack Daniel’s Rye whiskey, passion fruit and guava syrups, pineapple juice, lemon and lime juice	Schooner Bar	FALSE
+Cocktail	Tropic Rye	8PxGAPVNaZ	FALSE	Jack Daniel’s Rye whiskey, passion fruit and guava syrups, pineapple juice, lemon and lime juice	Schooner Bar	FALSE
+Zero Proof	Tropical Crush	V0zkndWdAY	FALSE	Pineapple juice, mango and Red Bull Yellow Edition	Aquadome Market Bar	FALSE
+Zero Proof	Tropical Crush	V0zkndWdAY	FALSE	Pineapple juice, mango and Red Bull Yellow Edition	Dueling Pianos	FALSE
+Zero Proof	Tropical Crush	V0zkndWdAY	FALSE	Pineapple juice, mango and Red Bull Yellow Edition	Playmakers Sports Bar	FALSE
+Zero Proof	Tropical Crush	V0zkndWdAY	FALSE	Pineapple juice, mango and Red Bull Yellow Edition	Spotlight Karaoke	FALSE
+Zero Proof	Tropical Crush	V0zkndWdAY	FALSE	Pineapple juice, mango and Red Bull Yellow Edition	The Overlook Bar	FALSE
+Zero Proof	Tropical Crush	V0zkndWdAY	FALSE	Pineapple juice, mango and Red Bull Yellow Edition	Trellis Bar	FALSE
+Cocktail	Tropical Sidecar	5RBxAr9cnt	FALSE	Hennessy VS cognac, Grand Marnier, passion fruit syrup and lemon juice with half sugar rim	Schooner Bar	FALSE
+Cocktail	Tropical Sidecar	5RBxAr9cnt	FALSE	Hennessy VS cognac, Grand Marnier, passion fruit syrup and lemon juice with half sugar rim	Schooner Bar	FALSE
+Seltzer	Truly Hard Seltzer	wLyGx0yBTA	FALSE	Wild berry, pineapple or strawberry lemonade spiked seltzer 4.5% ABV	Aquadome Market Bar	FALSE
+Seltzer	Truly Hard Seltzer	wLyGx0yBTA	FALSE	Wild berry, pineapple or strawberry lemonade spiked seltzer 4.5% ABV	Boleros	FALSE
+Seltzer	Truly Hard Seltzer	wLyGx0yBTA	FALSE	Wild berry, pineapple or strawberry lemonade spiked seltzer 4.5% ABV	Cantina Fresca	FALSE
+Seltzer	Truly Hard Seltzer	wLyGx0yBTA	FALSE	Wild berry, pineapple or strawberry lemonade spiked seltzer 4.5% ABV	Dueling Pianos	FALSE
+Seltzer	Truly Hard Seltzer	wLyGx0yBTA	FALSE	Wild berry, pineapple or strawberry lemonade spiked seltzer 4.5% ABV	Music Hall	FALSE
+Seltzer	Truly Hard Seltzer	wLyGx0yBTA	FALSE	Wild berry, pineapple or strawberry lemonade spiked seltzer 4.5% ABV	Playmakers Sports Bar	FALSE
+Seltzer	Truly Hard Seltzer	wLyGx0yBTA	FALSE	Wild berry, pineapple or strawberry lemonade spiked seltzer 4.5% ABV	Schooner Bar	FALSE
+Seltzer	Truly Hard Seltzer	wLyGx0yBTA	FALSE	Wild berry, pineapple or strawberry lemonade spiked seltzer 4.5% ABV	The Lime and Coconut Bars	FALSE
+Seltzer	Truly Hard Seltzer	wLyGx0yBTA	FALSE	Wild berry, pineapple or strawberry lemonade spiked seltzer 4.5% ABV	The Overlook Bar	FALSE
+Seltzer	Truly Hard Seltzer	wLyGx0yBTA	FALSE	Wild berry, pineapple or strawberry lemonade spiked seltzer 4.5% ABV	Trellis Bar	FALSE
+Seltzer	Twisted Tea Hard Iced Tea	AaATnj9ZTb	FALSE	Hard iced tea 5% ABV	1400 Lobby Bar	FALSE
+Seltzer	Twisted Tea Hard Iced Tea	AaATnj9ZTb	FALSE	Hard iced tea 5% ABV	Playmakers Sports Bar	FALSE
+Bottles	Veuve Clicquot	eT6y2WWH0J	TRUE	Champagne	The Hideaway Bar	TRUE
+Cocktail	Viking’s Crown	rbDGwp3dAl	FALSE	Pisco, lemon and pineapple juices and pineapple gum syrup	1400 Lobby Bar	TRUE
+Sparkling Wine	Vilarnau Cava	EWuIK0nbCV	FALSE	Cava	Bubbles	TRUE
+White Wine	Vint by Robert Mondavi, Chardonnay	akPOWaZvAT	FALSE	California, USA	Dueling Pianos	TRUE
+Red Wine	Vint by Robert Mondavi, Merlot	BiIViWWcM3	FALSE	California, USA	1400 Lobby Bar	FALSE
+Red Wine	Vint by Robert Mondavi, Merlot	BiIViWWcM3	FALSE	California, USA	Dueling Pianos	FALSE
+White Wine	Vint by Robert Mondavi, Sauvignon Blanc	LF6ItDuFuC	FALSE	California, USA	Dueling Pianos	TRUE
+Beer	Voodoo Ranger Juicy Haze IPA	2hNjnjD8yU	FALSE	—	1400 Lobby Bar	TRUE
+Cocktail	Watermelon ‘Rita’	vPaa6MFilx	FALSE	Patrón Silver tequila, triple sec, watermelon syrup and margarita mix	The Lime and Coconut Bars	TRUE
+Soft Mixer	Watermelon Agua Fresca	KrQAnngYoK	FALSE	—	Cantina Fresca	TRUE
+Zero Proof	Watermelon Fizz Lemonade	9MnYr1AeOb	FALSE	Watermelon juice, Sprite and house-made lemonade	The Lemon Post Bar	TRUE
+Cocktail	Watermelon Margarita	lcchjElREi	FALSE	Patrón Silver tequila, triple sec, margarita mix and watermelon syrup	Cantina Fresca	TRUE
+Zero Proof	Watermelon Mint Lemonade	rKfUQAnJuN	FALSE	Lemonade, watermelon syrup and mint	Aquadome Market Bar	FALSE
+Zero Proof	Watermelon Mint Lemonade	rKfUQAnJuN	FALSE	Lemonade, watermelon syrup and mint	Dueling Pianos	FALSE
+Zero Proof	Watermelon Mint Lemonade	rKfUQAnJuN	FALSE	Lemonade, watermelon syrup and mint	Spotlight Karaoke	FALSE
+Zero Proof	Watermelon Mint Lemonade	rKfUQAnJuN	FALSE	Lemonade, watermelon syrup and mint	The Overlook Bar	FALSE
+Zero Proof	Watermelon Mint Lemonade	rKfUQAnJuN	FALSE	Lemonade, watermelon syrup and mint	Trellis Bar	FALSE
+Seltzer	White Claw Hard Seltzer	NvA0araRpY	FALSE	Mango	1400 Lobby Bar	FALSE
+Seltzer	White Claw Hard Seltzer	NvA0araRpY	FALSE	Mango	Aquadome Market Bar	FALSE
+Seltzer	White Claw Hard Seltzer	NvA0araRpY	FALSE	Mango	Schooner Bar	FALSE
+Seltzer	White Claw Hard Seltzer	NvA0araRpY	FALSE	Mango	The Overlook Bar	FALSE
+Seltzer	White Claw Hard Seltzer	NvA0araRpY	FALSE	Mango	Trellis Bar	FALSE
+Cocktail	White Orchid	tPtW4SK5vd	FALSE	Vodka, coconut water, lemon juice, lychee purée and prosecco	The Hideaway Bar	TRUE
+Cocktail	White Port & Tonic	k7ZgnBaZDE	FALSE	White port, St-Germain elderflower liqueur, lemon juice and tonic	Point and Feather Pub	FALSE
+Cocktail	White Port & Tonic	k7ZgnBaZDE	FALSE	White port, St-Germain elderflower liqueur, lemon juice and tonic	Swim n Tonic	FALSE
+White Wine	White Zinfandel	U13DWjM1P4	FALSE	Beringer, California, USA	Cantina Fresca	FALSE
+White Wine	White Zinfandel	U13DWjM1P4	FALSE	Beringer, California, USA	The Lime and Coconut Bars	FALSE
+Cocktail	Wild Boys	f1x1ZwwICV	FALSE	Spiced rum, tequila blanco and lime juice topped with Coca-Cola	Dueling Pianos	FALSE
+Cocktail	Wild Boys	f1x1ZwwICV	FALSE	Spiced rum, tequila blanco and lime juice topped with Coca-Cola	Music Hall	FALSE
+Cocktail	Wild Boys	f1x1ZwwICV	FALSE	Spiced rum, tequila blanco and lime juice topped with Coca-Cola	Spotlight Karaoke	FALSE
+Tequila & Mezcal	Zignum Silver	KjhlllcAKt	FALSE	—	Aquadome Market Bar	FALSE
+Tequila & Mezcal	Zignum Silver	KjhlllcAKt	FALSE	—	The Overlook Bar	FALSE
+Tequila & Mezcal	Zignum Silver	KjhlllcAKt	FALSE	—	Trellis Bar	FALSE
