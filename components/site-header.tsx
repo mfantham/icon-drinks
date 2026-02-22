@@ -23,6 +23,9 @@ export function SiteHeader({ user }: SiteHeaderProps) {
               <Link href="/dashboard" className="rounded-md px-3 py-2 text-sm font-medium hover:bg-muted">
                 Dashboard
               </Link>
+              <Link href="/bars" className="rounded-md px-3 py-2 text-sm font-medium hover:bg-muted">
+                Bars
+              </Link>
               <Link href="/drinks" className="rounded-md px-3 py-2 text-sm font-medium hover:bg-muted">
                 Drinks
               </Link>

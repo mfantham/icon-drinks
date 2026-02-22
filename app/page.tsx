@@ -22,8 +22,11 @@ export default async function HomePage() {
               <Link href="/dashboard">
                 <Button>Open Dashboard</Button>
               </Link>
+              <Link href="/bars">
+                <Button variant="secondary">Browse by Bar</Button>
+              </Link>
               <Link href="/drinks">
-                <Button variant="secondary">Browse Drinks</Button>
+                <Button variant="outline">Browse All Drinks</Button>
               </Link>
             </>
           ) : (
