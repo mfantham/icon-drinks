@@ -32,6 +32,9 @@ export function SiteHeader({ user }: SiteHeaderProps) {
               <Link href="/my-logs" className="rounded-md px-3 py-2 text-sm font-medium hover:bg-muted">
                 My Logs
               </Link>
+              <Link href="/team" className="rounded-md px-3 py-2 text-sm font-medium hover:bg-muted">
+                Team
+              </Link>
               <form action={signOutAction}>
                 <Button variant="outline" size="sm" type="submit">
                   Sign out
