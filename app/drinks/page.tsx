@@ -1,10 +1,9 @@
 import { logDrinkAction } from "@/app/actions";
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import { requireUser } from "@/lib/auth";
+import { getReadableUserName, requireUser } from "@/lib/auth";
 import { getDrinkAnchorId } from "@/lib/drink-anchor";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 
@@ -38,7 +37,13 @@ type AvailabilityRow = {
 };
 
 type DrinkLogRow = {
+  user_id: string;
   drink_id: string;
+};
+
+type ProfileRow = {
+  id: string;
+  display_name: string | null;
 };
 
 function getSingle(value: string | string[] | undefined) {
@@ -66,29 +71,33 @@ export default async function DrinksPage({ searchParams }: DrinksPageProps) {
   const premiumOnly = getSingle(resolvedSearchParams.premium) === "1";
   const untriedOnly = getSingle(resolvedSearchParams.untried) === "1";
 
-  const [typesRes, barsRes, drinksRes, availabilityRes, userLogsRes] = await Promise.all([
+  const [typesRes, barsRes, drinksRes, availabilityRes, allLogsRes, profilesRes] = await Promise.all([
     supabase.from("drink_types").select("id,name").order("name", { ascending: true }),
     supabase.from("bars").select("id,name").order("name", { ascending: true }),
     supabase.from("drinks").select("id,name,description,premium,type_id"),
     supabase.from("drink_availability").select("drink_id,bar_id"),
-    supabase.from("drink_logs").select("drink_id").eq("user_id", user.id),
+    supabase.from("drink_logs").select("user_id,drink_id"),
+    supabase.from("profiles").select("id,display_name"),
   ]);
 
   throwIfError(typesRes.error, "Failed to load drink types");
   throwIfError(barsRes.error, "Failed to load bars");
   throwIfError(drinksRes.error, "Failed to load drinks");
   throwIfError(availabilityRes.error, "Failed to load availability");
-  throwIfError(userLogsRes.error, "Failed to load user logs");
+  throwIfError(allLogsRes.error, "Failed to load drink logs");
+  throwIfError(profilesRes.error, "Failed to load profiles");
 
   const types = (typesRes.data ?? []) as DrinkTypeRow[];
   const bars = (barsRes.data ?? []) as BarRow[];
   const drinks = (drinksRes.data ?? []) as DrinkRow[];
   const availabilityRows = (availabilityRes.data ?? []) as AvailabilityRow[];
-  const userLogs = (userLogsRes.data ?? []) as DrinkLogRow[];
+  const allLogs = (allLogsRes.data ?? []) as DrinkLogRow[];
+  const profiles = (profilesRes.data ?? []) as ProfileRow[];
 
   const typeNameById = new Map(types.map((type) => [type.id, type.name]));
   const barById = new Map(bars.map((bar) => [bar.id, bar]));
 
+  const profileNameById = new Map(profiles.map((profile) => [profile.id, profile.display_name]));
   const barIdsByDrinkId = new Map<string, string[]>();
   for (const row of availabilityRows) {
     if (!barIdsByDrinkId.has(row.drink_id)) {
@@ -108,7 +117,21 @@ export default async function DrinksPage({ searchParams }: DrinksPageProps) {
     barIdsByDrinkId.set(drinkId, Array.from(new Set(drinkBarIds)));
   }
 
-  const triedSet = new Set(userLogs.map((row) => row.drink_id));
+  const triedSet = new Set(allLogs.filter((log) => log.user_id === user.id).map((log) => log.drink_id));
+  const drinkerNamesByDrinkId = new Map<string, string[]>();
+
+  for (const log of allLogs) {
+    if (!drinkerNamesByDrinkId.has(log.drink_id)) {
+      drinkerNamesByDrinkId.set(log.drink_id, []);
+    }
+
+    const userName = getReadableUserName(profileNameById.get(log.user_id), log.user_id);
+    drinkerNamesByDrinkId.get(log.drink_id)?.push(userName);
+  }
+
+  for (const [drinkId, names] of drinkerNamesByDrinkId.entries()) {
+    drinkerNamesByDrinkId.set(drinkId, Array.from(new Set(names)).sort((a, b) => a.localeCompare(b)));
+  }
 
   const visibleDrinks = drinks
     .map((drink) => {
@@ -212,15 +235,14 @@ export default async function DrinksPage({ searchParams }: DrinksPageProps) {
               <TableRow>
                 <TableHead>Type</TableHead>
                 <TableHead>Name</TableHead>
-                <TableHead>Premium</TableHead>
                 <TableHead>Bars</TableHead>
-                <TableHead>Already Tried?</TableHead>
-                <TableHead>Log</TableHead>
+                <TableHead>Drunk by</TableHead>
+                <TableHead>Log it</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
               {visibleDrinks.map((drink) => {
-                const alreadyTried = triedSet.has(drink.id);
+                const drinkers = drinkerNamesByDrinkId.get(drink.id) ?? [];
 
                 return (
                   <TableRow
@@ -230,14 +252,27 @@ export default async function DrinksPage({ searchParams }: DrinksPageProps) {
                   >
                     <TableCell>{drink.typeName}</TableCell>
                     <TableCell>
-                      <div className="font-medium">{drink.name}</div>
+                      <div className="flex items-center gap-2 font-medium">
+                        {drink.premium ? (
+                          <span className="group relative inline-flex items-center">
+                            <button
+                              type="button"
+                              className="rounded-sm leading-none text-amber-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                              aria-label="Premium drink"
+                            >
+                              ★!
+                            </button>
+                            <span className="pointer-events-none absolute -top-7 left-1/2 hidden -translate-x-1/2 rounded-md bg-foreground px-2 py-1 text-[10px] font-semibold lowercase tracking-wide text-background shadow-sm group-hover:block group-focus-within:block">
+                              premium
+                            </span>
+                          </span>
+                        ) : null}
+                        <span>{drink.name}</span>
+                      </div>
                       {drink.description ? <div className="text-xs text-muted-foreground">{drink.description}</div> : null}
                     </TableCell>
-                    <TableCell>{drink.premium ? "★" : "-"}</TableCell>
                     <TableCell>{drink.barsForDrink.map((bar) => bar.name).join(", ") || "-"}</TableCell>
-                    <TableCell>
-                      {alreadyTried ? <Badge variant="success">Yes</Badge> : <Badge variant="muted">No</Badge>}
-                    </TableCell>
+                    <TableCell>{drinkers.length > 0 ? drinkers.join(", ") : "-"}</TableCell>
                     <TableCell>
                       <form action={logDrinkAction} className="flex items-center gap-2">
                         <input type="hidden" name="drinkId" value={drink.id} />
