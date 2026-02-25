@@ -63,7 +63,9 @@ export default async function DrinksPage({ searchParams }: DrinksPageProps) {
   const query = getSingle(resolvedSearchParams.q).trim().toLowerCase();
   const typeId = getSingle(resolvedSearchParams.type);
   const barId = getSingle(resolvedSearchParams.bar);
-  const premiumOnly = getSingle(resolvedSearchParams.premium) === "1";
+  const hidePremium = getSingle(resolvedSearchParams.hidePremium) === "1";
+  const hideNonAlcoholic = getSingle(resolvedSearchParams.hideNonAlcoholic) === "1";
+  const hideWines = getSingle(resolvedSearchParams.hideWines) === "1";
   const untriedOnly = getSingle(resolvedSearchParams.untried) === "1";
 
   const [typesRes, barsRes, drinksRes, availabilityRes, allLogsRes, profilesRes] = await Promise.all([
@@ -149,7 +151,9 @@ export default async function DrinksPage({ searchParams }: DrinksPageProps) {
       bars={bars}
       drinks={drinksWithMeta}
       initialBarId={barId}
-      initialPremiumOnly={premiumOnly}
+      initialHidePremium={hidePremium}
+      initialHideNonAlcoholic={hideNonAlcoholic}
+      initialHideWines={hideWines}
       initialQuery={query}
       initialTypeId={typeId}
       initialUntriedOnly={untriedOnly}

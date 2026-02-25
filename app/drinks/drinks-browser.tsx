@@ -35,7 +35,9 @@ type DrinksBrowserProps = {
   bars: BarRow[];
   drinks: DrinkWithMeta[];
   initialBarId: string;
-  initialPremiumOnly: boolean;
+  initialHidePremium: boolean;
+  initialHideNonAlcoholic: boolean;
+  initialHideWines: boolean;
   initialQuery: string;
   initialTypeId: string;
   initialUntriedOnly: boolean;
@@ -50,7 +52,9 @@ export function DrinksBrowser({
   bars,
   drinks,
   initialBarId,
-  initialPremiumOnly,
+  initialHidePremium,
+  initialHideNonAlcoholic,
+  initialHideWines,
   initialQuery,
   initialTypeId,
   initialUntriedOnly,
@@ -59,10 +63,39 @@ export function DrinksBrowser({
   const [query, setQuery] = useState(initialQuery);
   const [typeId, setTypeId] = useState(initialTypeId);
   const [barId, setBarId] = useState(initialBarId);
-  const [premiumOnly, setPremiumOnly] = useState(initialPremiumOnly);
+  const [hidePremium, setHidePremium] = useState(initialHidePremium);
+  const [hideNonAlcoholic, setHideNonAlcoholic] = useState(initialHideNonAlcoholic);
+  const [hideWines, setHideWines] = useState(initialHideWines);
   const [untriedOnly, setUntriedOnly] = useState(initialUntriedOnly);
 
+  const nonAlcoholicTypeIds = useMemo(() => {
+    const targetTypeNames = new Set(["soft mixer", "zero proof"]);
+    return new Set(types.filter((type) => targetTypeNames.has(type.name.toLowerCase())).map((type) => type.id));
+  }, [types]);
+
+  const wineTypeIds = useMemo(() => {
+    const targetTypeNames = new Set(["white wine", "red wine", "rose wine", "rosé wine", "sparkling wine"]);
+    return new Set(types.filter((type) => targetTypeNames.has(type.name.toLowerCase())).map((type) => type.id));
+  }, [types]);
+
   const normalizedQuery = foldForSearch(query.trim());
+
+  function handleResetFilters() {
+    setQuery("");
+    setTypeId("");
+    setBarId("");
+    setHidePremium(false);
+    setHideNonAlcoholic(false);
+    setHideWines(false);
+    setUntriedOnly(false);
+  }
+
+  function handleFilterAll() {
+    setHidePremium(true);
+    setHideNonAlcoholic(true);
+    setHideWines(true);
+    setUntriedOnly(true);
+  }
 
   const visibleDrinks = useMemo(() => {
     return drinks.filter((drink) => {
@@ -74,7 +107,15 @@ export function DrinksBrowser({
         return false;
       }
 
-      if (premiumOnly && !drink.premium) {
+      if (hidePremium && drink.premium) {
+        return false;
+      }
+
+      if (hideNonAlcoholic && nonAlcoholicTypeIds.has(drink.type_id)) {
+        return false;
+      }
+
+      if (hideWines && wineTypeIds.has(drink.type_id)) {
         return false;
       }
 
@@ -91,7 +132,7 @@ export function DrinksBrowser({
 
       return true;
     });
-  }, [barId, drinks, normalizedQuery, premiumOnly, typeId, untriedOnly]);
+  }, [barId, drinks, hideNonAlcoholic, hidePremium, hideWines, nonAlcoholicTypeIds, normalizedQuery, typeId, untriedOnly, wineTypeIds]);
 
   return (
     <div className="space-y-6">
@@ -145,12 +186,34 @@ export function DrinksBrowser({
             <label className="inline-flex items-center gap-2 text-sm md:col-span-2">
               <input
                 type="checkbox"
-                name="premium"
-                checked={premiumOnly}
-                onChange={(event) => setPremiumOnly(event.target.checked)}
+                name="hidePremium"
+                checked={hidePremium}
+                onChange={(event) => setHidePremium(event.target.checked)}
                 className="h-4 w-4"
               />
-              Premium only
+              Hide premium
+            </label>
+
+            <label className="inline-flex items-center gap-2 text-sm md:col-span-2">
+              <input
+                type="checkbox"
+                name="hideNonAlcoholic"
+                checked={hideNonAlcoholic}
+                onChange={(event) => setHideNonAlcoholic(event.target.checked)}
+                className="h-4 w-4"
+              />
+              Hide non-alcoholic
+            </label>
+
+            <label className="inline-flex items-center gap-2 text-sm md:col-span-2">
+              <input
+                type="checkbox"
+                name="hideWines"
+                checked={hideWines}
+                onChange={(event) => setHideWines(event.target.checked)}
+                className="h-4 w-4"
+              />
+              Hide wines
             </label>
 
             <label className="inline-flex items-center gap-2 text-sm md:col-span-2">
@@ -163,6 +226,15 @@ export function DrinksBrowser({
               />
               Untried only
             </label>
+
+            <div className="flex items-center gap-2 md:col-span-5">
+              <Button type="button" variant="outline" onClick={handleResetFilters}>
+                Reset filters
+              </Button>
+              <Button type="button" onClick={handleFilterAll}>
+                Filter all
+              </Button>
+            </div>
           </div>
         </CardContent>
       </Card>
