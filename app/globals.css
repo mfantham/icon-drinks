@@ -39,3 +39,12 @@ body {
 .drink-row:target > td:first-child {
   box-shadow: inset 4px 0 0 hsl(var(--primary));
 }
+
+.drink-row:target {
+  scroll-margin-top: 6rem;
+}
+
+.drink-row:target:not(tr) {
+  background-color: hsl(var(--primary) / 0.12);
+  box-shadow: inset 4px 0 0 hsl(var(--primary));
+}

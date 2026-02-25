@@ -95,30 +95,61 @@ export default async function TeamPage() {
           <CardDescription>Click a team member to open their full drink log.</CardDescription>
         </CardHeader>
         <CardContent>
-          <Table>
-            <TableHeader>
-              <TableRow>
-                <TableHead>Name</TableHead>
-                <TableHead>Total Logs</TableHead>
-                <TableHead>Unique Drinks</TableHead>
-                <TableHead>Last Logged</TableHead>
-              </TableRow>
-            </TableHeader>
-            <TableBody>
-              {teamRows.map((member) => (
-                <TableRow key={member.id}>
-                  <TableCell>
-                    <Link href={`/team/${member.id}`} className="font-medium text-primary hover:underline">
-                      {member.name}
-                    </Link>
-                  </TableCell>
-                  <TableCell>{member.totalLogs}</TableCell>
-                  <TableCell>{member.uniqueDrinks}</TableCell>
-                  <TableCell>{member.lastLoggedAt ? new Date(member.lastLoggedAt).toLocaleString() : "-"}</TableCell>
+          {teamRows.length === 0 ? <p className="text-sm text-muted-foreground">No team members yet.</p> : null}
+
+          <div className="space-y-3 md:hidden">
+            {teamRows.map((member) => (
+              <article key={member.id} className="space-y-3 rounded-lg border bg-background/70 p-4">
+                <div className="space-y-1">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Team member</p>
+                  <Link href={`/team/${member.id}`} className="text-base font-semibold text-primary hover:underline">
+                    {member.name}
+                  </Link>
+                </div>
+                <div className="grid gap-3 sm:grid-cols-2">
+                  <div className="space-y-1">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Total logs</p>
+                    <p className="text-sm">{member.totalLogs}</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Unique drinks</p>
+                    <p className="text-sm">{member.uniqueDrinks}</p>
+                  </div>
+                </div>
+                <div className="space-y-1">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Last logged</p>
+                  <p className="text-sm">{member.lastLoggedAt ? new Date(member.lastLoggedAt).toLocaleString() : "-"}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+
+          <div className="hidden md:block">
+            <Table>
+              <TableHeader>
+                <TableRow>
+                  <TableHead>Name</TableHead>
+                  <TableHead>Total Logs</TableHead>
+                  <TableHead>Unique Drinks</TableHead>
+                  <TableHead>Last Logged</TableHead>
                 </TableRow>
-              ))}
-            </TableBody>
-          </Table>
+              </TableHeader>
+              <TableBody>
+                {teamRows.map((member) => (
+                  <TableRow key={member.id}>
+                    <TableCell>
+                      <Link href={`/team/${member.id}`} className="font-medium text-primary hover:underline">
+                        {member.name}
+                      </Link>
+                    </TableCell>
+                    <TableCell>{member.totalLogs}</TableCell>
+                    <TableCell>{member.uniqueDrinks}</TableCell>
+                    <TableCell>{member.lastLoggedAt ? new Date(member.lastLoggedAt).toLocaleString() : "-"}</TableCell>
+                  </TableRow>
+                ))}
+              </TableBody>
+            </Table>
+          </div>
         </CardContent>
       </Card>
     </div>
