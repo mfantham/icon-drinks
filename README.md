@@ -8,7 +8,7 @@ Next.js (App Router) + TypeScript app for tracking cruise drinks across bars, wi
 - UI: Tailwind + shadcn/ui-style components
 - Charts: Recharts
 - Database: Supabase Postgres
-- Auth: Supabase Auth (Facebook + email magic link fallback)
+- Auth: Supabase Auth (email magic links)
 - Deploy target: Vercel
 - Package manager: Yarn
 
@@ -20,7 +20,7 @@ Next.js (App Router) + TypeScript app for tracking cruise drinks across bars, wi
   - `/drinks` drinks browser + log action
   - `/dashboard` stats/charts
   - `/my-logs` user logs + delete action
-  - `/auth/callback` OAuth/magic-link callback
+  - `/auth/callback` auth callback
 - `/Users/marcusfantham/dev/icon-drinks/scripts/import-drinks.ts`
 - `/Users/marcusfantham/dev/icon-drinks/supabase/migrations/202602210001_init.sql`
 - `/Users/marcusfantham/dev/icon-drinks/supabase/rls.sql`
@@ -33,25 +33,14 @@ Next.js (App Router) + TypeScript app for tracking cruise drinks across bars, wi
    - Publishable key
    - Service role key (only needed for import/admin scripts)
 
-## 2) Configure Auth Providers
+## 2) Configure Auth
 
-### Facebook provider in Supabase
+In Supabase `Authentication -> Providers -> Email`, enable magic link sign-in.
 
-1. Open `Authentication -> Providers -> Facebook` in Supabase.
-2. Enable the provider.
-3. Enter your Facebook App ID and App Secret from Meta Developers.
-4. Set site URL to your app URL.
-
-### Callback URLs in Meta (Facebook app)
-
-Set valid OAuth redirect URI(s):
+Set site URL and redirect URI(s):
 
 - Local: `http://localhost:3000/auth/callback`
 - Production: `https://<your-vercel-domain>/auth/callback`
-
-### Email magic link fallback
-
-In Supabase `Authentication -> Providers -> Email`, enable magic link sign-in.
 
 ## 3) Environment Variables
 

@@ -8,6 +8,9 @@ This document keeps agents aligned with the Cruise Bar Golf Tracker repository. 
 - Run `yarn install` (the project is locked to `yarn@1.22.22`).
 - Copy `.env.example` to `.env.local` and set `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`, `SUPABASE_SERVICE_ROLE_KEY`, and optional `ADMIN_EMAILS`.
 - Keep secrets in `.env.local`; it is gitignored. Use a secrets manager or your shell for machine-level credentials.
+- Authentication is email magic-link only. Do not configure Facebook/OAuth providers for new environments.
+- Account creation requires a first name (`first_name` user metadata). Keep onboarding and profile defaults aligned to first-name display.
+- Supabase auth cookies are configured for a 14-day `maxAge`; keep Supabase session settings at or above two weeks so browser sessions remain stable.
 - Seed the database with the SQL files under `supabase/migrations` and `supabase/rls.sql`. Use `supabase db push` when mirroring production schema before data imports.
 - The TSV import script (`scripts/import-drinks.ts`) expects headers `type`, `name`, `drink_id`, `premium`, `description`, and `bar`. Run it from the repo root after loading `.env.local`.
 - When debugging environment issues, double-check `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` vs. `NEXT_PUBLIC_SUPABASE_URL` pairings in both `.env.local` and your hosting platform.
