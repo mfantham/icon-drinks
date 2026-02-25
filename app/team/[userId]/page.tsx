@@ -116,32 +116,67 @@ export default async function TeamMemberLogPage({ params }: TeamMemberLogPagePro
           <CardDescription>Newest first.</CardDescription>
         </CardHeader>
         <CardContent>
-          <Table>
-            <TableHeader>
-              <TableRow>
-                <TableHead>Date</TableHead>
-                <TableHead>Type</TableHead>
-                <TableHead>Drink</TableHead>
-                <TableHead>Bar</TableHead>
-              </TableRow>
-            </TableHeader>
-            <TableBody>
-              {logs.map((log) => {
-                const drink = drinkById.get(log.drink_id);
-                const type = drink ? typeById.get(drink.type_id) : null;
-                const bar = log.bar_id ? barById.get(log.bar_id) : null;
+          {logs.length === 0 ? <p className="text-sm text-muted-foreground">No logs yet.</p> : null}
 
-                return (
-                  <TableRow key={log.id}>
-                    <TableCell>{new Date(log.created_at).toLocaleString()}</TableCell>
-                    <TableCell>{type?.name ?? "Unknown"}</TableCell>
-                    <TableCell>{drink?.name ?? "Unknown drink"}</TableCell>
-                    <TableCell>{bar?.name ?? "-"}</TableCell>
-                  </TableRow>
-                );
-              })}
-            </TableBody>
-          </Table>
+          <div className="space-y-3 md:hidden">
+            {logs.map((log) => {
+              const drink = drinkById.get(log.drink_id);
+              const type = drink ? typeById.get(drink.type_id) : null;
+              const bar = log.bar_id ? barById.get(log.bar_id) : null;
+
+              return (
+                <article key={log.id} className="space-y-3 rounded-lg border bg-background/70 p-4">
+                  <div className="space-y-1">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Date</p>
+                    <p className="text-sm">{new Date(log.created_at).toLocaleString()}</p>
+                  </div>
+                  <div className="grid gap-3 sm:grid-cols-2">
+                    <div className="space-y-1">
+                      <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Type</p>
+                      <p className="text-sm">{type?.name ?? "Unknown"}</p>
+                    </div>
+                    <div className="space-y-1">
+                      <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Bar</p>
+                      <p className="text-sm">{bar?.name ?? "-"}</p>
+                    </div>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Drink</p>
+                    <p className="text-sm font-medium">{drink?.name ?? "Unknown drink"}</p>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+
+          <div className="hidden md:block">
+            <Table>
+              <TableHeader>
+                <TableRow>
+                  <TableHead>Date</TableHead>
+                  <TableHead>Type</TableHead>
+                  <TableHead>Drink</TableHead>
+                  <TableHead>Bar</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                {logs.map((log) => {
+                  const drink = drinkById.get(log.drink_id);
+                  const type = drink ? typeById.get(drink.type_id) : null;
+                  const bar = log.bar_id ? barById.get(log.bar_id) : null;
+
+                  return (
+                    <TableRow key={log.id}>
+                      <TableCell>{new Date(log.created_at).toLocaleString()}</TableCell>
+                      <TableCell>{type?.name ?? "Unknown"}</TableCell>
+                      <TableCell>{drink?.name ?? "Unknown drink"}</TableCell>
+                      <TableCell>{bar?.name ?? "-"}</TableCell>
+                    </TableRow>
+                  );
+                })}
+              </TableBody>
+            </Table>
+          </div>
         </CardContent>
       </Card>
     </div>

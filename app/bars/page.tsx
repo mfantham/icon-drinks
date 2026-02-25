@@ -96,8 +96,8 @@ function DrinkTypeList({
           <ul className="space-y-2">
             {typeDrinks.map((drink) => (
               <li key={drink.id} className="rounded-lg border bg-background/60 p-3">
-                <div className="flex items-start justify-between gap-3">
-                  <div className="space-y-1">
+                <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+                  <div className="min-w-0 space-y-1">
                     <p className="font-medium">
                       <Link href={`/drinks#${getDrinkAnchorId(drink.name)}`} className="hover:underline">
                         {drink.name}
@@ -109,10 +109,10 @@ function DrinkTypeList({
                     ) : null}
                   </div>
 
-                  <form action={logDrinkAction}>
+                  <form action={logDrinkAction} className="w-full sm:w-auto">
                     <input type="hidden" name="drinkId" value={drink.id} />
                     <input type="hidden" name="barId" value={selectedBarId} />
-                    <Button type="submit" size="sm">
+                    <Button type="submit" size="sm" className="w-full sm:w-auto">
                       Log it
                     </Button>
                   </form>
