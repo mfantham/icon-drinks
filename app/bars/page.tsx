@@ -5,7 +5,7 @@ import { BarSelect } from "@/components/bar-select";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { requireUser } from "@/lib/auth";
-import { getDrinkAnchorId } from "@/lib/drink-anchor";
+import { getBarSlug, getDrinkAnchorId } from "@/lib/drink-anchor";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 
 type BarsPageProps = {
@@ -130,7 +130,7 @@ export default async function BarsPage({ searchParams }: BarsPageProps) {
   await requireUser();
   const supabase = await createSupabaseServerClient();
   const resolvedSearchParams = (await searchParams) ?? {};
-  const selectedBarIdFromSearch = getSingle(resolvedSearchParams.bar);
+  const selectedBarFromSearch = getSingle(resolvedSearchParams.bar);
 
   const [typesRes, barsRes, drinksRes, availabilityRes] = await Promise.all([
     supabase.from("drink_types").select("id,name").order("name", { ascending: true }),
@@ -149,7 +149,8 @@ export default async function BarsPage({ searchParams }: BarsPageProps) {
   const drinks = (drinksRes.data ?? []) as DrinkRow[];
   const availabilityRows = (availabilityRes.data ?? []) as AvailabilityRow[];
 
-  const selectedBar = bars.find((bar) => bar.id === selectedBarIdFromSearch) ?? bars[0] ?? null;
+  const barBySlug = new Map(bars.map((bar) => [getBarSlug(bar.name), bar]));
+  const selectedBar = bars.find((bar) => bar.id === selectedBarFromSearch) ?? barBySlug.get(selectedBarFromSearch) ?? bars[0] ?? null;
   const typeNameById = new Map(drinkTypes.map((type) => [type.id, type.name]));
   const barNameById = new Map(bars.map((bar) => [bar.id, bar.name]));
 
