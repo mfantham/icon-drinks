@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { requireUser } from "@/lib/auth";
+import { getDrinkAnchorId } from "@/lib/drink-anchor";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 
 type DrinksPageProps = {
@@ -222,7 +223,11 @@ export default async function DrinksPage({ searchParams }: DrinksPageProps) {
                 const alreadyTried = triedSet.has(drink.id);
 
                 return (
-                  <TableRow key={drink.id}>
+                  <TableRow
+                    key={drink.id}
+                    id={getDrinkAnchorId(drink.name)}
+                    className="drink-row [&>td]:transition-colors"
+                  >
                     <TableCell>{drink.typeName}</TableCell>
                     <TableCell>
                       <div className="font-medium">{drink.name}</div>

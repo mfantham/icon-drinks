@@ -62,6 +62,7 @@ export async function logDrinkAction(formData: FormData) {
   }
 
   revalidatePath("/drinks");
+  revalidatePath("/bars");
   revalidatePath("/my-logs");
   revalidatePath("/dashboard");
 }

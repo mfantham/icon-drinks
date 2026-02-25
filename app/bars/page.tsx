@@ -1,7 +1,11 @@
+import Link from "next/link";
+import { logDrinkAction } from "@/app/actions";
 import { Badge } from "@/components/ui/badge";
+import { BarSelect } from "@/components/bar-select";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { requireUser } from "@/lib/auth";
+import { getDrinkAnchorId } from "@/lib/drink-anchor";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 
 type BarsPageProps = {
@@ -34,6 +38,7 @@ type AvailabilityRow = {
 
 type DecoratedDrink = DrinkRow & {
   typeName: string;
+  otherBarNames: string[];
 };
 
 function getSingle(value: string | string[] | undefined) {
@@ -68,7 +73,15 @@ function groupByType(drinks: DecoratedDrink[]) {
   return Array.from(drinksByType.entries()).sort((first, second) => first[0].localeCompare(second[0]));
 }
 
-function DrinkTypeList({ drinks }: { drinks: DecoratedDrink[] }) {
+function DrinkTypeList({
+  drinks,
+  selectedBarId,
+  showAlsoAvailableAt,
+}: {
+  drinks: DecoratedDrink[];
+  selectedBarId: string;
+  showAlsoAvailableAt: boolean;
+}) {
   const sections = groupByType(drinks);
 
   if (sections.length === 0) {
@@ -83,8 +96,27 @@ function DrinkTypeList({ drinks }: { drinks: DecoratedDrink[] }) {
           <ul className="space-y-2">
             {typeDrinks.map((drink) => (
               <li key={drink.id} className="rounded-lg border bg-background/60 p-3">
-                <p className="font-medium">{drink.name}</p>
-                {drink.description ? <p className="text-sm text-muted-foreground">{drink.description}</p> : null}
+                <div className="flex items-start justify-between gap-3">
+                  <div className="space-y-1">
+                    <p className="font-medium">
+                      <Link href={`/drinks#${getDrinkAnchorId(drink.name)}`} className="hover:underline">
+                        {drink.name}
+                      </Link>
+                    </p>
+                    {drink.description ? <p className="text-sm text-muted-foreground">{drink.description}</p> : null}
+                    {showAlsoAvailableAt && drink.otherBarNames.length > 0 ? (
+                      <p className="text-xs text-muted-foreground">Also available at: {drink.otherBarNames.join(", ")}</p>
+                    ) : null}
+                  </div>
+
+                  <form action={logDrinkAction}>
+                    <input type="hidden" name="drinkId" value={drink.id} />
+                    <input type="hidden" name="barId" value={selectedBarId} />
+                    <Button type="submit" size="sm">
+                      Log it
+                    </Button>
+                  </form>
+                </div>
               </li>
             ))}
           </ul>
@@ -119,6 +151,7 @@ export default async function BarsPage({ searchParams }: BarsPageProps) {
 
   const selectedBar = bars.find((bar) => bar.id === selectedBarIdFromSearch) ?? bars[0] ?? null;
   const typeNameById = new Map(drinkTypes.map((type) => [type.id, type.name]));
+  const barNameById = new Map(bars.map((bar) => [bar.id, bar.name]));
 
   const availableBarIdsByDrinkId = new Map<string, Set<string>>();
   const availableDrinkIdsByBar = new Map<string, Set<string>>();
@@ -141,6 +174,11 @@ export default async function BarsPage({ searchParams }: BarsPageProps) {
         .map((drink) => ({
           ...drink,
           typeName: typeNameById.get(drink.type_id) ?? "Unknown",
+          otherBarNames: Array.from(availableBarIdsByDrinkId.get(drink.id) ?? [])
+            .filter((barId) => barId !== selectedBar.id)
+            .map((barId) => barNameById.get(barId))
+            .filter((barName): barName is string => Boolean(barName))
+            .sort((first, second) => first.localeCompare(second)),
         }))
         .sort(sortByTypeThenName)
     : [];
@@ -169,20 +207,7 @@ export default async function BarsPage({ searchParams }: BarsPageProps) {
           <CardDescription>Drink lists are sorted by type and show drink descriptions.</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
-          <form method="get" className="flex flex-col gap-3 sm:flex-row sm:items-center">
-            <select
-              name="bar"
-              defaultValue={selectedBar?.id ?? ""}
-              className="h-10 rounded-md border border-input bg-background px-3 text-sm"
-            >
-              {bars.map((bar) => (
-                <option key={bar.id} value={bar.id}>
-                  {bar.name}
-                </option>
-              ))}
-            </select>
-            <Button type="submit">View bar menu</Button>
-          </form>
+          <BarSelect bars={bars} selectedBarId={selectedBar?.id ?? ""} />
 
           {selectedBar ? (
             <div className="flex flex-wrap gap-2 text-xs">
@@ -204,7 +229,7 @@ export default async function BarsPage({ searchParams }: BarsPageProps) {
               <CardDescription>Only available in this bar.</CardDescription>
             </CardHeader>
             <CardContent>
-              <DrinkTypeList drinks={uniqueDrinks} />
+              <DrinkTypeList drinks={uniqueDrinks} selectedBarId={selectedBar.id} showAlsoAvailableAt={false} />
             </CardContent>
           </Card>
 
@@ -214,7 +239,7 @@ export default async function BarsPage({ searchParams }: BarsPageProps) {
               <CardDescription>Also available in other bars.</CardDescription>
             </CardHeader>
             <CardContent>
-              <DrinkTypeList drinks={otherDrinks} />
+              <DrinkTypeList drinks={otherDrinks} selectedBarId={selectedBar.id} showAlsoAvailableAt />
             </CardContent>
           </Card>
         </>
