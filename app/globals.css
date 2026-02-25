@@ -30,3 +30,12 @@ body {
   background-image: radial-gradient(circle at top left, rgba(224, 188, 122, 0.15), transparent 45%),
     radial-gradient(circle at bottom right, rgba(115, 185, 159, 0.2), transparent 40%);
 }
+
+.drink-row:target > td {
+  background-color: hsl(var(--primary) / 0.2);
+  color: hsl(var(--foreground));
+}
+
+.drink-row:target > td:first-child {
+  box-shadow: inset 4px 0 0 hsl(var(--primary));
+}

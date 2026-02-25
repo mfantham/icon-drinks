@@ -1,9 +1,11 @@
+import Link from "next/link";
 import { logDrinkAction } from "@/app/actions";
 import { Badge } from "@/components/ui/badge";
 import { BarSelect } from "@/components/bar-select";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { requireUser } from "@/lib/auth";
+import { getDrinkAnchorId } from "@/lib/drink-anchor";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 
 type BarsPageProps = {
@@ -96,7 +98,11 @@ function DrinkTypeList({
               <li key={drink.id} className="rounded-lg border bg-background/60 p-3">
                 <div className="flex items-start justify-between gap-3">
                   <div className="space-y-1">
-                    <p className="font-medium">{drink.name}</p>
+                    <p className="font-medium">
+                      <Link href={`/drinks#${getDrinkAnchorId(drink.name)}`} className="hover:underline">
+                        {drink.name}
+                      </Link>
+                    </p>
                     {drink.description ? <p className="text-sm text-muted-foreground">{drink.description}</p> : null}
                     {showAlsoAvailableAt && drink.otherBarNames.length > 0 ? (
                       <p className="text-xs text-muted-foreground">Also available at: {drink.otherBarNames.join(", ")}</p>
