@@ -7,9 +7,9 @@ import { getReadableUserName, requireUser } from "@/lib/auth";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 
 type TeamMemberLogPageProps = {
-  params: {
+  params?: Promise<{
     userId: string;
-  };
+  }>;
 };
 
 type ProfileRow = {
@@ -48,7 +48,10 @@ function throwIfError(error: { message: string } | null, context: string) {
 
 export default async function TeamMemberLogPage({ params }: TeamMemberLogPageProps) {
   await requireUser();
-  const { userId } = params;
+  const { userId } = (await params) ?? {};
+  if (!userId) {
+    notFound();
+  }
   const supabase = await createSupabaseServerClient();
 
   const [profileRes, logsRes, drinksRes, typesRes, barsRes] = await Promise.all([
