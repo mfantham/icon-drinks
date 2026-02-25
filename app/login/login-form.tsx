@@ -12,43 +12,39 @@ type LoginFormProps = {
   initialError?: string;
 };
 
+type AuthMode = "signIn" | "register";
+
+function normalizeFirstName(value: string) {
+  return value.trim().split(/\s+/)[0] ?? "";
+}
+
 export function LoginForm({ initialError }: LoginFormProps) {
   const searchParams = useSearchParams();
+  const [mode, setMode] = useState<AuthMode>("signIn");
+  const [firstName, setFirstName] = useState("");
   const [email, setEmail] = useState("");
   const [error, setError] = useState(initialError || "");
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
+  const isRegisterMode = mode === "register";
 
-  async function loginWithFacebook() {
-    setLoading(true);
+  function switchMode(nextMode: AuthMode) {
+    setMode(nextMode);
     setError("");
     setMessage("");
-
-    try {
-      const supabase = createSupabaseBrowserClient();
-      const nextPath = searchParams.get("next") || "/dashboard";
-      const callbackUrl = new URL(`${window.location.origin}/auth/callback`);
-      callbackUrl.searchParams.set("next", nextPath);
-      const { error: authError } = await supabase.auth.signInWithOAuth({
-        provider: "facebook",
-        options: {
-          redirectTo: callbackUrl.toString(),
-        },
-      });
-
-      if (authError) {
-        throw authError;
-      }
-    } catch (err) {
-      setError(err instanceof Error ? err.message : "Unable to sign in with Facebook.");
-    } finally {
-      setLoading(false);
-    }
   }
 
   async function sendMagicLink(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
+    const trimmedEmail = email.trim();
+    const normalizedFirstName = normalizeFirstName(firstName);
+
+    if (isRegisterMode && !normalizedFirstName) {
+      setError("First name is required to create an account.");
+      return;
+    }
+
     setLoading(true);
     setError("");
     setMessage("");
@@ -58,10 +54,19 @@ export function LoginForm({ initialError }: LoginFormProps) {
       const nextPath = searchParams.get("next") || "/dashboard";
       const callbackUrl = new URL(`${window.location.origin}/auth/callback`);
       callbackUrl.searchParams.set("next", nextPath);
+
       const { error: authError } = await supabase.auth.signInWithOtp({
-        email,
+        email: trimmedEmail,
         options: {
           emailRedirectTo: callbackUrl.toString(),
+          shouldCreateUser: isRegisterMode,
+          ...(isRegisterMode
+            ? {
+                data: {
+                  first_name: normalizedFirstName,
+                },
+              }
+            : {}),
         },
       });
 
@@ -69,9 +74,17 @@ export function LoginForm({ initialError }: LoginFormProps) {
         throw authError;
       }
 
-      setMessage("Magic link sent. Check your inbox.");
+      setMessage(
+        isRegisterMode ? "Check your inbox to finish creating your account." : "Magic link sent. Check your inbox."
+      );
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Unable to send magic link.");
+      setError(
+        err instanceof Error
+          ? err.message
+          : isRegisterMode
+            ? "Unable to create account with magic link."
+            : "Unable to send magic link."
+      );
     } finally {
       setLoading(false);
     }
@@ -79,20 +92,41 @@ export function LoginForm({ initialError }: LoginFormProps) {
 
   return (
     <div className="space-y-5">
-      <Button type="button" className="w-full" onClick={loginWithFacebook} disabled={loading}>
-        Continue with Facebook
-      </Button>
-
-      <div className="relative">
-        <div className="absolute inset-0 flex items-center">
-          <span className="w-full border-t" />
-        </div>
-        <div className="relative flex justify-center text-xs uppercase">
-          <span className="bg-card px-2 text-muted-foreground">or</span>
-        </div>
+      <div className="grid grid-cols-2 gap-2">
+        <Button
+          type="button"
+          variant={isRegisterMode ? "outline" : "default"}
+          onClick={() => switchMode("signIn")}
+          disabled={loading}
+        >
+          Sign in
+        </Button>
+        <Button
+          type="button"
+          variant={isRegisterMode ? "default" : "outline"}
+          onClick={() => switchMode("register")}
+          disabled={loading}
+        >
+          Create account
+        </Button>
       </div>
 
       <form className="space-y-3" onSubmit={sendMagicLink}>
+        {isRegisterMode ? (
+          <>
+            <Label htmlFor="first-name">First name</Label>
+            <Input
+              id="first-name"
+              type="text"
+              autoComplete="given-name"
+              required
+              value={firstName}
+              onChange={(event) => setFirstName(event.target.value)}
+              placeholder="Alex"
+            />
+          </>
+        ) : null}
+
         <Label htmlFor="email">Email</Label>
         <Input
           id="email"
@@ -104,7 +138,7 @@ export function LoginForm({ initialError }: LoginFormProps) {
           placeholder="you@example.com"
         />
         <Button type="submit" variant="secondary" className="w-full" disabled={loading}>
-          Send magic link
+          {isRegisterMode ? "Create account with magic link" : "Send sign-in link"}
         </Button>
       </form>
 

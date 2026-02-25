@@ -5,6 +5,29 @@ import { redirect } from "next/navigation";
 
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 
+function extractFirstName(value: unknown) {
+  if (typeof value !== "string") {
+    return "";
+  }
+
+  const firstWord = value.trim().split(/\s+/)[0];
+
+  return firstWord?.trim() ?? "";
+}
+
+function getProfileFirstName(user: User) {
+  const firstFromEmail = user.email?.split("@")[0]?.split(/[._-]/)[0];
+
+  return (
+    extractFirstName(user.user_metadata?.first_name) ||
+    extractFirstName(user.user_metadata?.given_name) ||
+    extractFirstName(user.user_metadata?.full_name) ||
+    extractFirstName(user.user_metadata?.name) ||
+    extractFirstName(firstFromEmail) ||
+    "Golfer"
+  );
+}
+
 export const getCurrentUser = cache(async () => {
   const supabase = await createSupabaseServerClient();
   const {
@@ -26,8 +49,7 @@ export async function requireUser() {
 
 export async function ensureProfile(user: User, supabaseClient?: SupabaseClient) {
   const supabase = supabaseClient ?? (await createSupabaseServerClient());
-  const fallbackName =
-    user.user_metadata?.full_name || user.user_metadata?.name || user.email?.split("@")[0] || "Bar Golfer";
+  const fallbackName = getProfileFirstName(user);
 
   const { error } = await supabase.from("profiles").upsert(
     {

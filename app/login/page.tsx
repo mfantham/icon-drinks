@@ -34,7 +34,7 @@ export default async function LoginPage({ searchParams }: LoginPageProps) {
       <Card>
         <CardHeader>
           <CardTitle>Sign in</CardTitle>
-          <CardDescription>Use Facebook, or request an email magic link as fallback.</CardDescription>
+          <CardDescription>Use an email magic link to sign in or create an account.</CardDescription>
         </CardHeader>
         <CardContent>
           <LoginForm initialError={error} />
