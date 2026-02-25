@@ -1,10 +1,5 @@
-import { logDrinkAction } from "@/app/actions";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { DrinksBrowser } from "./drinks-browser";
 import { getReadableUserName, requireUser } from "@/lib/auth";
-import { getDrinkAnchorId } from "@/lib/drink-anchor";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 
 type DrinksPageProps = {
@@ -133,7 +128,7 @@ export default async function DrinksPage({ searchParams }: DrinksPageProps) {
     drinkerNamesByDrinkId.set(drinkId, Array.from(new Set(names)).sort((a, b) => a.localeCompare(b)));
   }
 
-  const visibleDrinks = drinks
+  const drinksWithMeta = drinks
     .map((drink) => {
       const barsForDrink = (barIdsByDrinkId.get(drink.id) ?? [])
         .map((id) => barById.get(id))
@@ -143,165 +138,22 @@ export default async function DrinksPage({ searchParams }: DrinksPageProps) {
         ...drink,
         typeName: typeNameById.get(drink.type_id) ?? "Unknown",
         barsForDrink,
+        drinkers: drinkerNamesByDrinkId.get(drink.id) ?? [],
+        tried: triedSet.has(drink.id),
       };
-    })
-    .filter((drink) => {
-      if (typeId && drink.type_id !== typeId) {
-        return false;
-      }
-
-      if (barId && !drink.barsForDrink.some((bar) => bar.id === barId)) {
-        return false;
-      }
-
-      if (premiumOnly && !drink.premium) {
-        return false;
-      }
-
-      if (untriedOnly && triedSet.has(drink.id)) {
-        return false;
-      }
-
-      if (query) {
-        const searchable = `${drink.name} ${drink.description ?? ""} ${drink.typeName}`.toLowerCase();
-        if (!searchable.includes(query)) {
-          return false;
-        }
-      }
-
-      return true;
     })
     .sort((a, b) => a.typeName.localeCompare(b.typeName) || a.name.localeCompare(b.name));
 
   return (
-    <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-semibold tracking-tight">Drinks Browser</h1>
-        <p className="text-sm text-muted-foreground">Search the full list, filter by bar/type, and log drinks instantly.</p>
-      </div>
-
-      <Card>
-        <CardHeader>
-          <CardTitle>Filters</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <form className="grid gap-3 md:grid-cols-5" method="get">
-            <Input name="q" placeholder="Search drinks" defaultValue={getSingle(resolvedSearchParams.q)} className="md:col-span-2" />
-
-            <select
-              name="type"
-              defaultValue={typeId}
-              className="h-10 rounded-md border border-input bg-background px-3 text-sm"
-            >
-              <option value="">All types</option>
-              {types.map((type) => (
-                <option key={type.id} value={type.id}>
-                  {type.name}
-                </option>
-              ))}
-            </select>
-
-            <select name="bar" defaultValue={barId} className="h-10 rounded-md border border-input bg-background px-3 text-sm">
-              <option value="">All bars</option>
-              {bars.map((bar) => (
-                <option key={bar.id} value={bar.id}>
-                  {bar.name}
-                </option>
-              ))}
-            </select>
-
-            <Button type="submit">Apply</Button>
-
-            <label className="inline-flex items-center gap-2 text-sm md:col-span-2">
-              <input type="checkbox" name="premium" value="1" defaultChecked={premiumOnly} className="h-4 w-4" />
-              Premium only
-            </label>
-
-            <label className="inline-flex items-center gap-2 text-sm md:col-span-2">
-              <input type="checkbox" name="untried" value="1" defaultChecked={untriedOnly} className="h-4 w-4" />
-              Untried only
-            </label>
-          </form>
-        </CardContent>
-      </Card>
-
-      <Card>
-        <CardHeader>
-          <CardTitle>{visibleDrinks.length} drinks</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <Table>
-            <TableHeader>
-              <TableRow>
-                <TableHead>Type</TableHead>
-                <TableHead>Name</TableHead>
-                <TableHead>Bars</TableHead>
-                <TableHead>Drunk by</TableHead>
-                <TableHead>Log it</TableHead>
-              </TableRow>
-            </TableHeader>
-            <TableBody>
-              {visibleDrinks.map((drink) => {
-                const drinkers = drinkerNamesByDrinkId.get(drink.id) ?? [];
-
-                return (
-                  <TableRow
-                    key={drink.id}
-                    id={getDrinkAnchorId(drink.name)}
-                    className="drink-row [&>td]:transition-colors"
-                  >
-                    <TableCell>{drink.typeName}</TableCell>
-                    <TableCell>
-                      <div className="flex items-center gap-2 font-medium">
-                        {drink.premium ? (
-                          <span className="group relative inline-flex items-center">
-                            <button
-                              type="button"
-                              className="rounded-sm leading-none text-amber-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-                              aria-label="Premium drink"
-                            >
-                              ★!
-                            </button>
-                            <span className="pointer-events-none absolute -top-7 left-1/2 hidden -translate-x-1/2 rounded-md bg-foreground px-2 py-1 text-[10px] font-semibold lowercase tracking-wide text-background shadow-sm group-hover:block group-focus-within:block">
-                              premium
-                            </span>
-                          </span>
-                        ) : null}
-                        <span>{drink.name}</span>
-                      </div>
-                      {drink.description ? <div className="text-xs text-muted-foreground">{drink.description}</div> : null}
-                    </TableCell>
-                    <TableCell>{drink.barsForDrink.map((bar) => bar.name).join(", ") || "-"}</TableCell>
-                    <TableCell>{drinkers.length > 0 ? drinkers.join(", ") : "-"}</TableCell>
-                    <TableCell>
-                      <form action={logDrinkAction} className="flex items-center gap-2">
-                        <input type="hidden" name="drinkId" value={drink.id} />
-
-                        {drink.barsForDrink.length > 1 ? (
-                          <select name="barId" className="h-9 rounded-md border border-input bg-background px-2 text-xs">
-                            <option value="">No bar</option>
-                            {drink.barsForDrink.map((bar) => (
-                              <option key={bar.id} value={bar.id}>
-                                {bar.name}
-                              </option>
-                            ))}
-                          </select>
-                        ) : drink.barsForDrink.length === 1 ? (
-                          <input type="hidden" name="barId" value={drink.barsForDrink[0].id} />
-                        ) : null}
-
-                        <Button type="submit" size="sm">
-                          Log it
-                        </Button>
-                      </form>
-                    </TableCell>
-                  </TableRow>
-                );
-              })}
-            </TableBody>
-          </Table>
-        </CardContent>
-      </Card>
-    </div>
+    <DrinksBrowser
+      bars={bars}
+      drinks={drinksWithMeta}
+      initialBarId={barId}
+      initialPremiumOnly={premiumOnly}
+      initialQuery={query}
+      initialTypeId={typeId}
+      initialUntriedOnly={untriedOnly}
+      types={types}
+    />
   );
 }
