@@ -3,6 +3,8 @@
 import { useTransition } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
+import { getBarSlug } from "@/lib/drink-anchor";
+
 type BarOption = {
   id: string;
   name: string;
@@ -23,7 +25,8 @@ export function BarSelect({ bars, selectedBarId }: BarSelectProps) {
     const nextParams = new URLSearchParams(searchParams.toString());
 
     if (barId) {
-      nextParams.set("bar", barId);
+      const selectedBar = bars.find((bar) => bar.id === barId);
+      nextParams.set("bar", selectedBar ? getBarSlug(selectedBar.name) : barId);
     } else {
       nextParams.delete("bar");
     }

@@ -1,13 +1,14 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Link from "next/link";
 
 import { logDrinkAction } from "@/app/actions";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import { getDrinkAnchorId } from "@/lib/drink-anchor";
+import { getBarSlug, getDrinkAnchorId } from "@/lib/drink-anchor";
 
 type DrinkTypeRow = {
   id: string;
@@ -283,7 +284,18 @@ export function DrinksBrowser({
                       </div>
                       {drink.description ? <div className="text-xs text-muted-foreground">{drink.description}</div> : null}
                     </TableCell>
-                    <TableCell>{drink.barsForDrink.map((bar) => bar.name).join(", ") || "-"}</TableCell>
+                    <TableCell>
+                      {drink.barsForDrink.length > 0
+                        ? drink.barsForDrink.map((bar, index) => (
+                            <span key={bar.id}>
+                              {index > 0 ? ", " : null}
+                              <Link href={`/bars?bar=${getBarSlug(bar.name)}`} className="underline-offset-2 hover:underline">
+                                {bar.name}
+                              </Link>
+                            </span>
+                          ))
+                        : "-"}
+                    </TableCell>
                     <TableCell>{drink.drinkers.length > 0 ? drink.drinkers.join(", ") : "-"}</TableCell>
                     <TableCell>
                       <form action={logDrinkAction} className="flex items-center gap-2">

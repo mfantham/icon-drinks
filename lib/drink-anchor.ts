@@ -1,5 +1,5 @@
-export function getDrinkAnchorId(name: string) {
-  const slug = name
+function slugifyName(name: string) {
+  return name
     .toLowerCase()
     .normalize("NFKD")
     .replace(/[\u0300-\u036f]/g, "")
@@ -7,6 +7,12 @@ export function getDrinkAnchorId(name: string) {
     .trim()
     .replace(/\s+/g, "-")
     .replace(/-+/g, "-");
+}
 
-  return slug || "drink";
+export function getDrinkAnchorId(name: string) {
+  return slugifyName(name) || "drink";
+}
+
+export function getBarSlug(name: string) {
+  return slugifyName(name) || "bar";
 }
