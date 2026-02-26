@@ -1,72 +1,44 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useState } from "react";
 import { useSearchParams } from "next/navigation";
 
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
 import { createSupabaseBrowserClient } from "@/lib/supabase/client";
 
 type LoginFormProps = {
   initialError?: string;
 };
 
-type AuthMode = "signIn" | "register";
+function getSafeNextPath(value: string | null) {
+  if (!value) {
+    return "/dashboard";
+  }
 
-function normalizeFirstName(value: string) {
-  return value.trim().split(/\s+/)[0] ?? "";
+  return value.startsWith("/") ? value : "/dashboard";
 }
 
 export function LoginForm({ initialError }: LoginFormProps) {
   const searchParams = useSearchParams();
-  const [mode, setMode] = useState<AuthMode>("signIn");
-  const [firstName, setFirstName] = useState("");
-  const [email, setEmail] = useState("");
   const [error, setError] = useState(initialError || "");
-  const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
-  const isRegisterMode = mode === "register";
 
-  function switchMode(nextMode: AuthMode) {
-    setMode(nextMode);
-    setError("");
-    setMessage("");
-  }
-
-  async function sendMagicLink(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-
-    const trimmedEmail = email.trim();
-    const normalizedFirstName = normalizeFirstName(firstName);
-
-    if (isRegisterMode && !normalizedFirstName) {
-      setError("First name is required to create an account.");
-      return;
-    }
+  async function continueWithGoogle() {
 
     setLoading(true);
     setError("");
-    setMessage("");
 
     try {
       const supabase = createSupabaseBrowserClient();
-      const nextPath = searchParams.get("next") || "/dashboard";
+      const nextPath = getSafeNextPath(searchParams.get("next"));
       const callbackUrl = new URL(`${window.location.origin}/auth/callback`);
       callbackUrl.searchParams.set("next", nextPath);
 
-      const { error: authError } = await supabase.auth.signInWithOtp({
-        email: trimmedEmail,
+      const { data, error: authError } = await supabase.auth.signInWithOAuth({
+        provider: "google",
         options: {
-          emailRedirectTo: callbackUrl.toString(),
-          shouldCreateUser: isRegisterMode,
-          ...(isRegisterMode
-            ? {
-                data: {
-                  first_name: normalizedFirstName,
-                },
-              }
-            : {}),
+          redirectTo: callbackUrl.toString(),
+          skipBrowserRedirect: true,
         },
       });
 
@@ -74,16 +46,14 @@ export function LoginForm({ initialError }: LoginFormProps) {
         throw authError;
       }
 
-      setMessage(
-        isRegisterMode ? "Check your inbox to finish creating your account." : "Magic link sent. Check your inbox."
-      );
+      if (!data?.url) {
+        throw new Error("Unable to start Google sign-in.");
+      }
+
+      window.location.assign(data.url);
     } catch (err) {
       setError(
-        err instanceof Error
-          ? err.message
-          : isRegisterMode
-            ? "Unable to create account with magic link."
-            : "Unable to send magic link."
+        err instanceof Error ? err.message : "Unable to start Google sign-in."
       );
     } finally {
       setLoading(false);
@@ -91,58 +61,11 @@ export function LoginForm({ initialError }: LoginFormProps) {
   }
 
   return (
-    <div className="space-y-5">
-      <div className="grid grid-cols-2 gap-2">
-        <Button
-          type="button"
-          variant={isRegisterMode ? "outline" : "default"}
-          onClick={() => switchMode("signIn")}
-          disabled={loading}
-        >
-          Sign in
-        </Button>
-        <Button
-          type="button"
-          variant={isRegisterMode ? "default" : "outline"}
-          onClick={() => switchMode("register")}
-          disabled={loading}
-        >
-          Create account
-        </Button>
-      </div>
-
-      <form className="space-y-3" onSubmit={sendMagicLink}>
-        {isRegisterMode ? (
-          <>
-            <Label htmlFor="first-name">First name</Label>
-            <Input
-              id="first-name"
-              type="text"
-              autoComplete="given-name"
-              required
-              value={firstName}
-              onChange={(event) => setFirstName(event.target.value)}
-              placeholder="Alex"
-            />
-          </>
-        ) : null}
-
-        <Label htmlFor="email">Email</Label>
-        <Input
-          id="email"
-          type="email"
-          autoComplete="email"
-          required
-          value={email}
-          onChange={(event) => setEmail(event.target.value)}
-          placeholder="you@example.com"
-        />
-        <Button type="submit" variant="secondary" className="w-full" disabled={loading}>
-          {isRegisterMode ? "Create account with magic link" : "Send sign-in link"}
-        </Button>
-      </form>
-
-      {message ? <p className="text-sm text-emerald-700">{message}</p> : null}
+    <div className="space-y-3">
+      <Button type="button" className="w-full" onClick={continueWithGoogle} disabled={loading}>
+        {loading ? "Redirecting to Google..." : "Continue with Google"}
+      </Button>
+      <p className="text-sm text-muted-foreground">Use your Google account to sign in or create an account.</p>
       {error ? <p className="text-sm text-red-700">{error}</p> : null}
     </div>
   );
