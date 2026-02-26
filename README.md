@@ -8,7 +8,7 @@ Next.js (App Router) + TypeScript app for tracking cruise drinks across bars, wi
 - UI: Tailwind + shadcn/ui-style components
 - Charts: Recharts
 - Database: Supabase Postgres
-- Auth: Supabase Auth (email magic links)
+- Auth: Supabase Auth (Google OAuth)
 - Deploy target: Vercel
 - Package manager: Yarn
 
@@ -35,7 +35,8 @@ Next.js (App Router) + TypeScript app for tracking cruise drinks across bars, wi
 
 ## 2) Configure Auth
 
-In Supabase `Authentication -> Providers -> Email`, enable magic link sign-in.
+In Supabase `Authentication -> Providers -> Google`, enable Google sign-in and set your Google OAuth client credentials.
+In Google Cloud, add your Supabase callback URL as an authorized redirect URI: `https://<your-project-ref>.supabase.co/auth/v1/callback`.
 
 Set site URL and redirect URI(s):
 
