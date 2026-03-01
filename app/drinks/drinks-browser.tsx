@@ -7,6 +7,7 @@ import { logDrinkAction } from "@/app/actions";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
+import { LogDrinkButton } from "@/components/log-drink-button";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { getBarSlug, getDrinkAnchorId } from "@/lib/drink-anchor";
 
@@ -306,9 +307,7 @@ export function DrinksBrowser({
                       <input type="hidden" name="barId" value={drink.barsForDrink[0].id} />
                     ) : null}
 
-                    <Button type="submit" size="sm" className="w-full sm:w-auto">
-                      Log it
-                    </Button>
+                    <LogDrinkButton className="w-full sm:w-auto" />
                   </form>
                 </article>
               );
@@ -385,9 +384,7 @@ export function DrinksBrowser({
                             <input type="hidden" name="barId" value={drink.barsForDrink[0].id} />
                           ) : null}
 
-                          <Button type="submit" size="sm">
-                            Log it
-                          </Button>
+                          <LogDrinkButton />
                         </form>
                       </TableCell>
                     </TableRow>

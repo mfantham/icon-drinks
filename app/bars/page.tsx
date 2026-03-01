@@ -2,8 +2,8 @@ import Link from "next/link";
 import { logDrinkAction } from "@/app/actions";
 import { Badge } from "@/components/ui/badge";
 import { BarSelect } from "@/components/bar-select";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { LogDrinkButton } from "@/components/log-drink-button";
 import { requireUser } from "@/lib/auth";
 import { getBarSlug, getDrinkAnchorId } from "@/lib/drink-anchor";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
@@ -112,9 +112,7 @@ function DrinkTypeList({
                   <form action={logDrinkAction} className="w-full sm:w-auto">
                     <input type="hidden" name="drinkId" value={drink.id} />
                     <input type="hidden" name="barId" value={selectedBarId} />
-                    <Button type="submit" size="sm" className="w-full sm:w-auto">
-                      Log it
-                    </Button>
+                    <LogDrinkButton className="w-full sm:w-auto" />
                   </form>
                 </div>
               </li>
